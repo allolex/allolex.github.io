@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Allolexicon]]></title>
-  <link href="http://allolex.net/atom.xml" rel="self"/>
-  <link href="http://allolex.net/"/>
-  <updated>2013-07-05T21:32:57+01:00</updated>
-  <id>http://allolex.net/</id>
+  <link href="http://allolex.github.io/atom.xml" rel="self"/>
+  <link href="http://allolex.github.io/"/>
+  <updated>2013-07-05T21:42:13+01:00</updated>
+  <id>http://allolex.github.io/</id>
   <author>
     <name><![CDATA[Damon Davison]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Apple Hardware RAID]]></title>
-    <link href="http://allolex.net/blog/2013/07/05/apple-hardware-raid/"/>
+    <link href="http://allolex.github.io/blog/2013/07/05/apple-hardware-raid/"/>
     <updated>2013-07-05T00:00:00+01:00</updated>
-    <id>http://allolex.net/blog/2013/07/05/apple-hardware-raid</id>
+    <id>http://allolex.github.io/blog/2013/07/05/apple-hardware-raid</id>
     <content type="html"><![CDATA[<p>When I got home yesterday, I noticed that our 2009 Mac Pro was unresponsive. I
 checked to see if it was on the network, and then powered it down. When I
 turned it back on, it booted into the recovery volume.</p>
@@ -55,81 +55,81 @@ seriously.</p>
   
   <entry>
     <title type="html"><![CDATA[This is how we sleep now, apparently.]]></title>
-    <link href="http://allolex.net/blog/2013/02/15/this-is-how-we-sleep-now-apparently/"/>
+    <link href="http://allolex.github.io/blog/2013/02/15/this-is-how-we-sleep-now-apparently/"/>
     <updated>2013-02-15T00:00:00+00:00</updated>
-    <id>http://allolex.net/blog/2013/02/15/this-is-how-we-sleep-now-apparently</id>
+    <id>http://allolex.github.io/blog/2013/02/15/this-is-how-we-sleep-now-apparently</id>
     <content type="html"><![CDATA[<p><a href=""></a></p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Peeking out]]></title>
-    <link href="http://allolex.net/blog/2013/02/14/peeking-out/"/>
+    <link href="http://allolex.github.io/blog/2013/02/14/peeking-out/"/>
     <updated>2013-02-14T00:00:00+00:00</updated>
-    <id>http://allolex.net/blog/2013/02/14/peeking-out</id>
+    <id>http://allolex.github.io/blog/2013/02/14/peeking-out</id>
     <content type="html"><![CDATA[<p><a href=""></a></p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Billie basking in the autumn]]></title>
-    <link href="http://allolex.net/blog/2013/02/14/billie-basking-in-the-autumn/"/>
+    <link href="http://allolex.github.io/blog/2013/02/14/billie-basking-in-the-autumn/"/>
     <updated>2013-02-14T00:00:00+00:00</updated>
-    <id>http://allolex.net/blog/2013/02/14/billie-basking-in-the-autumn</id>
+    <id>http://allolex.github.io/blog/2013/02/14/billie-basking-in-the-autumn</id>
     <content type="html"><![CDATA[<p><a href=""></a></p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[]]></title>
-    <link href="http://allolex.net/blog/2013/02/13/"/>
+    <link href="http://allolex.github.io/blog/2013/02/13/"/>
     <updated>2013-02-13T00:00:00+00:00</updated>
-    <id>http://allolex.net/blog/2013/02/</id>
+    <id>http://allolex.github.io/blog/2013/02/</id>
     <content type="html"><![CDATA[<p><a href=""></a></p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[London bus arrival]]></title>
-    <link href="http://allolex.net/blog/2013/02/12/london-bus-arrival/"/>
+    <link href="http://allolex.github.io/blog/2013/02/12/london-bus-arrival/"/>
     <updated>2013-02-12T00:00:00+00:00</updated>
-    <id>http://allolex.net/blog/2013/02/12/london-bus-arrival</id>
+    <id>http://allolex.github.io/blog/2013/02/12/london-bus-arrival</id>
     <content type="html"><![CDATA[<p><a href=""></a></p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Billie always wants to play bones when we are getting dressed.]]></title>
-    <link href="http://allolex.net/blog/2013/02/12/billie-always-wants-to-play-bones-when-we-are-getting-dressed/"/>
+    <link href="http://allolex.github.io/blog/2013/02/12/billie-always-wants-to-play-bones-when-we-are-getting-dressed/"/>
     <updated>2013-02-12T00:00:00+00:00</updated>
-    <id>http://allolex.net/blog/2013/02/12/billie-always-wants-to-play-bones-when-we-are-getting-dressed</id>
+    <id>http://allolex.github.io/blog/2013/02/12/billie-always-wants-to-play-bones-when-we-are-getting-dressed</id>
     <content type="html"><![CDATA[<p><a href=""></a></p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Ladies and Gentlemen]]></title>
-    <link href="http://allolex.net/blog/2013/02/11/ladies-and-gentlemen/"/>
+    <link href="http://allolex.github.io/blog/2013/02/11/ladies-and-gentlemen/"/>
     <updated>2013-02-11T00:00:00+00:00</updated>
-    <id>http://allolex.net/blog/2013/02/11/ladies-and-gentlemen</id>
+    <id>http://allolex.github.io/blog/2013/02/11/ladies-and-gentlemen</id>
     <content type="html"><![CDATA[<p><a href=""></a></p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Bavette with chips at Medcalf – View on Path.]]></title>
-    <link href="http://allolex.net/blog/2013/02/08/bavette-with-chips-at-medcalf--view-on-path/"/>
+    <link href="http://allolex.github.io/blog/2013/02/08/bavette-with-chips-at-medcalf--view-on-path/"/>
     <updated>2013-02-08T00:00:00+00:00</updated>
-    <id>http://allolex.net/blog/2013/02/08/bavette-with-chips-at-medcalf&#8211;view-on-path</id>
-    <content type="html"><![CDATA[<p><img src="http://allolex.net/tumblr_files/tumblr_mhwo0mmWz21r95zg4o1_1280.jpg" alt="" /></p>
+    <id>http://allolex.github.io/blog/2013/02/08/bavette-with-chips-at-medcalf&#8211;view-on-path</id>
+    <content type="html"><![CDATA[<p><img src="http://allolex.github.io/tumblr_files/tumblr_mhwo0mmWz21r95zg4o1_1280.jpg" alt="" /></p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[]]></title>
-    <link href="http://allolex.net/blog/2013/01/31/"/>
+    <link href="http://allolex.github.io/blog/2013/01/31/"/>
     <updated>2013-01-31T00:00:00+00:00</updated>
-    <id>http://allolex.net/blog/2013/01/</id>
+    <id>http://allolex.github.io/blog/2013/01/</id>
     <content type="html"><![CDATA[<p>OH: &ldquo;they&rsquo;ve got an old version of the Internet on&rdquo;</p>
 ]]></content>
   </entry>
@@ -140,27 +140,27 @@ seriously.</p>
 Ana in Lisbon, 2009.
 
 Mine from a few years back]]></title>
-    <link href="http://allolex.net/blog/2013/01/30/damonallendavisonana-in-lisbon-2009mine-from-a-few-years-back/"/>
+    <link href="http://allolex.github.io/blog/2013/01/30/damonallendavisonana-in-lisbon-2009mine-from-a-few-years-back/"/>
     <updated>2013-01-30T00:00:00+00:00</updated>
-    <id>http://allolex.net/blog/2013/01/30/damonallendavisonana-in-lisbon-2009mine-from-a-few-years-back</id>
+    <id>http://allolex.github.io/blog/2013/01/30/damonallendavisonana-in-lisbon-2009mine-from-a-few-years-back</id>
     <content type="html"><![CDATA[<p><a href=""></a></p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Apparently I’m the sort of person who takes photos of their dog and posts them on the Internet. Just so we’re clear about what sort of person I am, I also take photos of my meals and post them, too. Sometimes.]]></title>
-    <link href="http://allolex.net/blog/2013/01/21/apparently-im-the-sort-of-person-who-takes-photos-of-their-dog-and-posts-them-on-the-internet-just-so-were-clear-about-what-sort-of-person-i-am-i-also-take-photos-of-my-meals-and-post-them-too-sometime/"/>
+    <link href="http://allolex.github.io/blog/2013/01/21/apparently-im-the-sort-of-person-who-takes-photos-of-their-dog-and-posts-them-on-the-internet-just-so-were-clear-about-what-sort-of-person-i-am-i-also-take-photos-of-my-meals-and-post-them-too-sometime/"/>
     <updated>2013-01-21T00:00:00+00:00</updated>
-    <id>http://allolex.net/blog/2013/01/21/apparently-im-the-sort-of-person-who-takes-photos-of-their-dog-and-posts-them-on-the-internet-just-so-were-clear-about-what-sort-of-person-i-am-i-also-take-photos-of-my-meals-and-post-them-too-sometime</id>
+    <id>http://allolex.github.io/blog/2013/01/21/apparently-im-the-sort-of-person-who-takes-photos-of-their-dog-and-posts-them-on-the-internet-just-so-were-clear-about-what-sort-of-person-i-am-i-also-take-photos-of-my-meals-and-post-them-too-sometime</id>
     <content type="html"><![CDATA[<p><a href=""></a></p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Vomiting in English]]></title>
-    <link href="http://allolex.net/blog/2013/01/13/vomiting-in-english/"/>
+    <link href="http://allolex.github.io/blog/2013/01/13/vomiting-in-english/"/>
     <updated>2013-01-13T00:00:00+00:00</updated>
-    <id>http://allolex.net/blog/2013/01/13/vomiting-in-english</id>
+    <id>http://allolex.github.io/blog/2013/01/13/vomiting-in-english</id>
     <content type="html"><![CDATA[<p>Some synonyms for &ldquo;vomit&rdquo; (n,v) in English</p>
 
 <ul>
@@ -197,63 +197,63 @@ relativity</a>.</p>
   
   <entry>
     <title type="html"><![CDATA[Ozone]]></title>
-    <link href="http://allolex.net/blog/2013/01/12/ozone/"/>
+    <link href="http://allolex.github.io/blog/2013/01/12/ozone/"/>
     <updated>2013-01-12T00:00:00+00:00</updated>
-    <id>http://allolex.net/blog/2013/01/12/ozone</id>
+    <id>http://allolex.github.io/blog/2013/01/12/ozone</id>
     <content type="html"><![CDATA[<p><a href=""></a></p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA["Benedict-style" eggs.]]></title>
-    <link href="http://allolex.net/blog/2013/01/12/benedict-style-eggs/"/>
+    <link href="http://allolex.github.io/blog/2013/01/12/benedict-style-eggs/"/>
     <updated>2013-01-12T00:00:00+00:00</updated>
-    <id>http://allolex.net/blog/2013/01/12/benedict-style-eggs</id>
+    <id>http://allolex.github.io/blog/2013/01/12/benedict-style-eggs</id>
     <content type="html"><![CDATA[<p><a href=""></a></p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[]]></title>
-    <link href="http://allolex.net/blog/2013/01/11/"/>
+    <link href="http://allolex.github.io/blog/2013/01/11/"/>
     <updated>2013-01-11T00:00:00+00:00</updated>
-    <id>http://allolex.net/blog/2013/01/</id>
+    <id>http://allolex.github.io/blog/2013/01/</id>
     <content type="html"><![CDATA[<p><a href=""></a></p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[This is Billie. She turned five yesterday.]]></title>
-    <link href="http://allolex.net/blog/2013/01/08/this-is-billie-she-turned-five-yesterday/"/>
+    <link href="http://allolex.github.io/blog/2013/01/08/this-is-billie-she-turned-five-yesterday/"/>
     <updated>2013-01-08T00:00:00+00:00</updated>
-    <id>http://allolex.net/blog/2013/01/08/this-is-billie-she-turned-five-yesterday</id>
+    <id>http://allolex.github.io/blog/2013/01/08/this-is-billie-she-turned-five-yesterday</id>
     <content type="html"><![CDATA[<p><a href=""></a></p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Byron, double cheeseburger]]></title>
-    <link href="http://allolex.net/blog/2013/01/07/byron-double-cheeseburger/"/>
+    <link href="http://allolex.github.io/blog/2013/01/07/byron-double-cheeseburger/"/>
     <updated>2013-01-07T00:00:00+00:00</updated>
-    <id>http://allolex.net/blog/2013/01/07/byron-double-cheeseburger</id>
+    <id>http://allolex.github.io/blog/2013/01/07/byron-double-cheeseburger</id>
     <content type="html"><![CDATA[<p><a href=""></a></p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Genius Bar]]></title>
-    <link href="http://allolex.net/blog/2013/01/06/genius-bar/"/>
+    <link href="http://allolex.github.io/blog/2013/01/06/genius-bar/"/>
     <updated>2013-01-06T00:00:00+00:00</updated>
-    <id>http://allolex.net/blog/2013/01/06/genius-bar</id>
+    <id>http://allolex.github.io/blog/2013/01/06/genius-bar</id>
     <content type="html"><![CDATA[<p><a href=""></a></p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Covent Garden]]></title>
-    <link href="http://allolex.net/blog/2013/01/06/covent-garden/"/>
+    <link href="http://allolex.github.io/blog/2013/01/06/covent-garden/"/>
     <updated>2013-01-06T00:00:00+00:00</updated>
-    <id>http://allolex.net/blog/2013/01/06/covent-garden</id>
+    <id>http://allolex.github.io/blog/2013/01/06/covent-garden</id>
     <content type="html"><![CDATA[<p><a href=""></a></p>
 ]]></content>
   </entry>

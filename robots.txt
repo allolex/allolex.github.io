@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: http://allolex.net/sitemap.xml 
+Sitemap: http://allolex.github.io/sitemap.xml 
