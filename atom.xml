@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Allolexicon]]></title>
+  <link href="http://allolex.net/atom.xml" rel="self"/>
+  <link href="http://allolex.net/"/>
+  <updated>2013-07-05T21:32:57+01:00</updated>
+  <id>http://allolex.net/</id>
+  <author>
+    <name><![CDATA[Damon Davison]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Apple Hardware RAID]]></title>
+    <link href="http://allolex.net/blog/2013/07/05/apple-hardware-raid/"/>
+    <updated>2013-07-05T00:00:00+01:00</updated>
+    <id>http://allolex.net/blog/2013/07/05/apple-hardware-raid</id>
+    <content type="html"><![CDATA[<p>When I got home yesterday, I noticed that our 2009 Mac Pro was unresponsive. I
+checked to see if it was on the network, and then powered it down. When I
+turned it back on, it booted into the recovery volume.</p>
+
+<p>That Mac Pro had a RAID 5 array on it, composed of four 2TB hard drives,
+bought for a premium price from Apple so they would support the system.</p>
+
+<p>I opened up the RAID utility and saw that the RAID controller was recognising
+all four hard drives were no longer in a RAID set. Although all of them were
+reporting that they were &ldquo;ok&rdquo;, the RAID set and therefore the RAID volume were
+gone.</p>
+
+<p>I telephoned Apple, happy to pay for someone to guide me through the recovery
+since there is <strong>absolutely no</strong> documentation on recovering a RAID 5 system
+with a missing RAID set. Their technical support was courteous, but not well-
+informed.</p>
+
+<p>After going over it and leaving it with them to &ldquo;investigate&rdquo; further, I
+received a phone call today from the person who was helping me. The short of
+it is that Apple say if your RAID set is missing, you&rsquo;re screwed. They also
+say that you should not be using RAID for backup purposes, as it&rsquo;s only
+designed to protect you from disk failure.</p>
+
+<p>But of course it wasn&rsquo;t a disk that failed. It was the RAID itself, and it
+took out all our data with it. We will be restoring from backup, but the size
+of the RAID (4.7TB) meant that backing up to external drives is complicated,
+and our backups are not completely up-to-date.</p>
+
+<p>The point is that we paid nearly £500 for the RAID card and it has proved to
+be a complete waste of money. If your Dell RAID dies on you, then Dell will
+help you recover it, but clearly Apple don&rsquo;t take their business support
+seriously.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[This is how we sleep now, apparently.]]></title>
+    <link href="http://allolex.net/blog/2013/02/15/this-is-how-we-sleep-now-apparently/"/>
+    <updated>2013-02-15T00:00:00+00:00</updated>
+    <id>http://allolex.net/blog/2013/02/15/this-is-how-we-sleep-now-apparently</id>
+    <content type="html"><![CDATA[<p><a href=""></a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Peeking out]]></title>
+    <link href="http://allolex.net/blog/2013/02/14/peeking-out/"/>
+    <updated>2013-02-14T00:00:00+00:00</updated>
+    <id>http://allolex.net/blog/2013/02/14/peeking-out</id>
+    <content type="html"><![CDATA[<p><a href=""></a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Billie basking in the autumn]]></title>
+    <link href="http://allolex.net/blog/2013/02/14/billie-basking-in-the-autumn/"/>
+    <updated>2013-02-14T00:00:00+00:00</updated>
+    <id>http://allolex.net/blog/2013/02/14/billie-basking-in-the-autumn</id>
+    <content type="html"><![CDATA[<p><a href=""></a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[]]></title>
+    <link href="http://allolex.net/blog/2013/02/13/"/>
+    <updated>2013-02-13T00:00:00+00:00</updated>
+    <id>http://allolex.net/blog/2013/02/</id>
+    <content type="html"><![CDATA[<p><a href=""></a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[London bus arrival]]></title>
+    <link href="http://allolex.net/blog/2013/02/12/london-bus-arrival/"/>
+    <updated>2013-02-12T00:00:00+00:00</updated>
+    <id>http://allolex.net/blog/2013/02/12/london-bus-arrival</id>
+    <content type="html"><![CDATA[<p><a href=""></a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Billie always wants to play bones when we are getting dressed.]]></title>
+    <link href="http://allolex.net/blog/2013/02/12/billie-always-wants-to-play-bones-when-we-are-getting-dressed/"/>
+    <updated>2013-02-12T00:00:00+00:00</updated>
+    <id>http://allolex.net/blog/2013/02/12/billie-always-wants-to-play-bones-when-we-are-getting-dressed</id>
+    <content type="html"><![CDATA[<p><a href=""></a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Ladies and Gentlemen]]></title>
+    <link href="http://allolex.net/blog/2013/02/11/ladies-and-gentlemen/"/>
+    <updated>2013-02-11T00:00:00+00:00</updated>
+    <id>http://allolex.net/blog/2013/02/11/ladies-and-gentlemen</id>
+    <content type="html"><![CDATA[<p><a href=""></a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Bavette with chips at Medcalf – View on Path.]]></title>
+    <link href="http://allolex.net/blog/2013/02/08/bavette-with-chips-at-medcalf--view-on-path/"/>
+    <updated>2013-02-08T00:00:00+00:00</updated>
+    <id>http://allolex.net/blog/2013/02/08/bavette-with-chips-at-medcalf&#8211;view-on-path</id>
+    <content type="html"><![CDATA[<p><img src="http://allolex.net/tumblr_files/tumblr_mhwo0mmWz21r95zg4o1_1280.jpg" alt="" /></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[]]></title>
+    <link href="http://allolex.net/blog/2013/01/31/"/>
+    <updated>2013-01-31T00:00:00+00:00</updated>
+    <id>http://allolex.net/blog/2013/01/</id>
+    <content type="html"><![CDATA[<p>OH: &ldquo;they&rsquo;ve got an old version of the Internet on&rdquo;</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[damonallendavison:
+
+Ana in Lisbon, 2009.
+
+Mine from a few years back]]></title>
+    <link href="http://allolex.net/blog/2013/01/30/damonallendavisonana-in-lisbon-2009mine-from-a-few-years-back/"/>
+    <updated>2013-01-30T00:00:00+00:00</updated>
+    <id>http://allolex.net/blog/2013/01/30/damonallendavisonana-in-lisbon-2009mine-from-a-few-years-back</id>
+    <content type="html"><![CDATA[<p><a href=""></a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Apparently I’m the sort of person who takes photos of their dog and posts them on the Internet. Just so we’re clear about what sort of person I am, I also take photos of my meals and post them, too. Sometimes.]]></title>
+    <link href="http://allolex.net/blog/2013/01/21/apparently-im-the-sort-of-person-who-takes-photos-of-their-dog-and-posts-them-on-the-internet-just-so-were-clear-about-what-sort-of-person-i-am-i-also-take-photos-of-my-meals-and-post-them-too-sometime/"/>
+    <updated>2013-01-21T00:00:00+00:00</updated>
+    <id>http://allolex.net/blog/2013/01/21/apparently-im-the-sort-of-person-who-takes-photos-of-their-dog-and-posts-them-on-the-internet-just-so-were-clear-about-what-sort-of-person-i-am-i-also-take-photos-of-my-meals-and-post-them-too-sometime</id>
+    <content type="html"><![CDATA[<p><a href=""></a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Vomiting in English]]></title>
+    <link href="http://allolex.net/blog/2013/01/13/vomiting-in-english/"/>
+    <updated>2013-01-13T00:00:00+00:00</updated>
+    <id>http://allolex.net/blog/2013/01/13/vomiting-in-english</id>
+    <content type="html"><![CDATA[<p>Some synonyms for &ldquo;vomit&rdquo; (n,v) in English</p>
+
+<ul>
+<li>barf</li>
+<li>blow</li>
+<li>blow chunks</li>
+<li>boak</li>
+<li>bow down before the porcelain god</li>
+<li>chunder</li>
+<li>honk</li>
+<li>hurl</li>
+<li>puke</li>
+<li>purge</li>
+<li>ride the porcelain bus</li>
+<li>(be) sick</li>
+<li>spew</li>
+<li>technicolor (yawn OR dream)</li>
+<li>throw up</li>
+<li>toss your cookies</li>
+<li>upchuck</li>
+</ul>
+
+
+<p>Many thanks to <a href="https://twitter.com/jav_villegas">Jav</a>, <a href="https://twitter.com/Overkell">Kelly-
+Lee</a>, and
+<a href="https://twitter.com/Schnacks">Allison</a> for their contributions.</p>
+
+<p>So does vomit have a special meaning for speakers of English?</p>
+
+<p>Just putting a lid on the whole notion of <a href="http://en.wikipedia.org/wiki/Linguistic_relativity">linguistic
+relativity</a>.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Ozone]]></title>
+    <link href="http://allolex.net/blog/2013/01/12/ozone/"/>
+    <updated>2013-01-12T00:00:00+00:00</updated>
+    <id>http://allolex.net/blog/2013/01/12/ozone</id>
+    <content type="html"><![CDATA[<p><a href=""></a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA["Benedict-style" eggs.]]></title>
+    <link href="http://allolex.net/blog/2013/01/12/benedict-style-eggs/"/>
+    <updated>2013-01-12T00:00:00+00:00</updated>
+    <id>http://allolex.net/blog/2013/01/12/benedict-style-eggs</id>
+    <content type="html"><![CDATA[<p><a href=""></a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[]]></title>
+    <link href="http://allolex.net/blog/2013/01/11/"/>
+    <updated>2013-01-11T00:00:00+00:00</updated>
+    <id>http://allolex.net/blog/2013/01/</id>
+    <content type="html"><![CDATA[<p><a href=""></a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[This is Billie. She turned five yesterday.]]></title>
+    <link href="http://allolex.net/blog/2013/01/08/this-is-billie-she-turned-five-yesterday/"/>
+    <updated>2013-01-08T00:00:00+00:00</updated>
+    <id>http://allolex.net/blog/2013/01/08/this-is-billie-she-turned-five-yesterday</id>
+    <content type="html"><![CDATA[<p><a href=""></a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Byron, double cheeseburger]]></title>
+    <link href="http://allolex.net/blog/2013/01/07/byron-double-cheeseburger/"/>
+    <updated>2013-01-07T00:00:00+00:00</updated>
+    <id>http://allolex.net/blog/2013/01/07/byron-double-cheeseburger</id>
+    <content type="html"><![CDATA[<p><a href=""></a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Genius Bar]]></title>
+    <link href="http://allolex.net/blog/2013/01/06/genius-bar/"/>
+    <updated>2013-01-06T00:00:00+00:00</updated>
+    <id>http://allolex.net/blog/2013/01/06/genius-bar</id>
+    <content type="html"><![CDATA[<p><a href=""></a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Covent Garden]]></title>
+    <link href="http://allolex.net/blog/2013/01/06/covent-garden/"/>
+    <updated>2013-01-06T00:00:00+00:00</updated>
+    <id>http://allolex.net/blog/2013/01/06/covent-garden</id>
+    <content type="html"><![CDATA[<p><a href=""></a></p>
+]]></content>
+  </entry>
+  
+</feed>

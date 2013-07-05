@@ -1,0 +1,901 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Allolexicon</title>
+  <meta name="author" content="Damon Davison">
+
+  
+  <meta name="description" content="
+">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://allolex.net/blog/page/3">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="Allolexicon" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/lib/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">Allolexicon</a></h1>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:allolex.net" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div class="blog-index">
+  
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2012/03/17/heres-my-submission-for-a-npr-planet-money-minimalist-econ-poster-its-the-concept-of-negative-equityits-copyright-2012-damon-allen-davison-permission-is-granted-to-npr-to-use-or-re-publish-this-online-/">Here’s My Submission for a NPR Planet Money “Minimalist Econ Poster&#8221;. It’s the Concept of “negative Equity&#8221;.  It’s Copyright ©2012 Damon Allen Davison. Permission Is Granted to NPR to Use or Re-publish This Online as Long as I’m Credited.</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-03-17T00:00:00+00:00" pubdate data-updated="true">Mar 17<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p><a href=""></a></p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2012/03/10/php-testing-resources-for-wordpress-plugins/">PHP Testing Resources for Wordpress Plugins</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-03-10T00:00:00+00:00" pubdate data-updated="true">Mar 10<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Since I&rsquo;ve been developing a WordPress theme and plugins for the new website
+at work, I&rsquo;ve been working with PHP quite intensively for the last couple of
+months. For a lot of reasons, PHP isn&rsquo;t my favourite language to work in, and
+the lack of testing culture amongst PHP programmers is really underlined by
+WordPress theme and plugin developers not shipping their code with tests,
+which could also be a reflection of the WordPress core having lots of tests,
+but having them <a href="http://codex.wordpress.org/Automated_Testing">available only when you clone the Subversion
+repository</a>.</p>
+
+<p>I&rsquo;ve also been thinking about how projects like <a href="https://github.com/cashmusic/DIY">CASH Music
+DIY</a> could really benefit from a combination
+of test-driven development (TDD) for the developers themselves and behaviour-
+driven development (BDD) to allow non-experts to write tests that can double
+as documentation using <a href="http://cukes.info/">Cucumber</a>. In fact, I started this
+whole search by looking for tips on how to use Cucumber and
+<a href="http://jnicklas.github.com/capybara/">Capybara</a> to do integration testing on
+PHP projects.</p>
+
+<p>Cucumber allows you to write natural-language feature tests, such as the
+following example taken from their Github repository:</p>
+
+<div>
+  <pre><code class='python'>Feature: Addition
+  In order to avoid silly mistakes
+  As a math idiot 
+  I want to be told the sum of two numbers
+
+  Scenario Outline: Add two numbers
+    Given I have entered  into the calculator
+    And I have entered  into the calculator
+    When I press 
+    Then the result should be  on the screen
+
+  Examples:
+    | input_1 | input_2 | button | output |
+    | 20      | 30      | add    | 50     |
+    | 2       | 5       | add    | 7      |
+    | 0       | 40      | add    | 40     |</code></pre>
+</div>
+
+
+<p>On the unit testing and TDD front, Smashing Magazine has a brand new <a href="http://coding.smashingmagazine.com/2012/03/07/writing-unit-tests-for-%0Awordpress-plugins/">article
+on writing unit tests for WP
+plugins</a> that uses the JavaScript
+<a href="http://docs.jquery.com/QUnit">QUnit</a>. There is a simple <a href="http://www.lastcraft.com/first_test_tutorial.php">Lastcraft Unit
+Testing Tutorial</a> using
+<a href="http://www.simpletest.org/">SimpleTest</a>.</p>
+
+<p>Where BDD is concerned, Otaqui.com has a Gist for using <a href="http://otaqui.com/blog/1072/testing-remote-php-websites-with-capybara-%0Acucumber-mechanize-selenium-2-webdriver-and-saucelabs/">Cucumber, Capybara,
+Mechanize and Selenium to test remote PHP web
+sites</a>.</p>
+
+<p>Since I&rsquo;m just starting out with this, I&rsquo;d love to hear from some PHP testing
+experts and anyone else who can help me fill in the gaps.</p>
+
+<p>More resources I&rsquo;ve found since posting this:</p>
+
+<ul>
+<li>Eric Hogue&rsquo;s <a href="http://erichogue.ca/2011/06/php/test-driven-development-in-php/">post on TDD in PHP using SimpleTest and PHPUnit</a>.</li>
+<li>There&rsquo;s <a href="http://techportal.ibuildings.com/2011/08/03/outside-in-behaviour-driven-development-in-php-part-2/">a PHP port of RSpec called PHPSpec</a>, which is a really cool idea for doing outside-in BDD with PHP. It&rsquo;s not as pretty as Ruby because PHP isn&rsquo;t syntactically sweet enough to eliminate all the sigils that are optional in Ruby and the Domain-Specific Languages (DSL&rsquo;s) derived from it, plus other stuff*.</li>
+<li><p>Sebastian Bergmann and Stefan Priebsch have written <a href="http://qualityassuranceinphpprojects.com/">a book called <em>Real-World Solutions for Developing High-Quality PHP Frameworks and Applications</em></a> whose content is hopefully easier to digest than the English title. Their original German title is <em>Softwarequalität in PHP-Projekten</em> &lsquo;Software quality in PHP projects&#8221;, and much <em>leichter zu verdauen</em>.</p></li>
+<li><p>Camel case for everything, really?</p></li>
+</ul>
+
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2012/03/06/nprthere-are-about-175-indigenous-languages-still-spoken-in-the-united-states-and-a-vast-majority-of-them-are-on-the-verge-of-extinctiona-road-trip-in-search-of-americas-lost-languageslinguist-elizabet/">Npr: “There Are About 175 Indigenous Languages Still Spoken in the United States and a Vast Majority of Them Are on the Verge of Extinction. ” a Road Trip in Search of America’s Lost Languages Linguist Elizabeth Little Took a Two-year Trip Across the U.S. In Search of the Country’s Lost Languages. The Resulting Book Is Trip of the Tongue: Cross-Country Travels in Search of America’s Lost Languages.</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-03-06T00:00:00+00:00" pubdate data-updated="true">Mar 6<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content">
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2012/02/18/mothlite---the-one-in-the-water/">Mothlite - the One in the Water</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-02-18T00:00:00+00:00" pubdate data-updated="true">Feb 18<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>I absolutely love this album! Here&rsquo;s a photo I took of Mothlite around the
+time the album was released.</p>
+
+<p><img src="http://farm8.staticflickr.com/7191/6895985103_afe5a3565b_o_d.jpg" alt="Mothlite at the
+Scala" /></p>
+
+<p><a href="http://southernrec.tumblr.com/post/17704014421/mothlite-from-%0Athe-debut-album-flax-of-reverie">southernrec</a>:</p>
+
+<blockquote><p>Mothlite &ndash; from the debut album “Flax Of Reverie”. The album’s six pieces
+encompass elements as diverse as choral madrigals cascading with strings, the
+melody and dissonance of Arvo Part and Moondog and the cinematic, studio-as-
+instrument manipulations of Pink Floyd, Coil, Cocteau Twins and late period
+Talk Talk. Woodwind and percussion take their cue from the devotional mantras
+of Alice Coltrane and Albert Ayler. O’Sullivan’s words are of the same
+bloodline as Jorge Luis Borges, Lewis Carroll and Henry Williamson. Mothlite
+will release their second album on K Scope in 2012.</p></blockquote>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2012/01/27/fifi-fatales-powder-puff-striptease-filmed-by-damon-allen-davison/">Fifi Fatale’s Powder Puff Striptease, Filmed by Damon Allen Davison</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-01-27T00:00:00+00:00" pubdate data-updated="true">Jan 27<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p><img src="/tumblr_files/tumblr_lygywpBthz1r95zg4o1_1280.jpg" alt="" /></p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2012/01/08/billie-hiding-her-nose/">Billie Hiding Her Nose</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-01-08T00:00:00+00:00" pubdate data-updated="true">Jan 8<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p><a href=""></a></p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2012/01/08/awesome-would-be-appropriate-here/">&#8220;Awesome&#8221; Would Be Appropriate Here.</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-01-08T00:00:00+00:00" pubdate data-updated="true">Jan 8<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p><img src="/tumblr_files/tumblr_lx2nshFy4s1r9rdxro1_1280.jpg" alt="" /></p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2012/01/06/restricting-users-when-setting-up-a-file-transfer-server/">Restricting Users When Setting Up a File Transfer Server</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-01-06T00:00:00+00:00" pubdate data-updated="true">Jan 6<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p><a href="http://www.howtoforge.com/restricting-users-to-sftp-plus-setting-up-%0Achrooted-ssh-sftp-debian-squeeze">Restricting users when setting up a file transfer
+server</a></p>
+
+<p>In my role of Production Manager at Southern, I keep running across rather,
+shall we say &ldquo;sub-optimal&rdquo; server configurations for delivering masters,
+artwork and other very large files to manufacturers.</p>
+
+<p>For example, one of the plants we have worked with has a single SFTP account
+for all their clients to upload their masters to. It&rsquo;s not an append-only
+solution like an OS X &ldquo;Drop Box&rdquo; where people can&rsquo;t see what was uploaded&mdash;you
+can potentially download other companies&#8217; masters. Another company we work
+with for digital retail doesn&rsquo;t let you read anything, but you can see all of
+their clients. There aren&rsquo;t many servers I think have been set up well.</p>
+
+<p>I&rsquo;ve decided that it&rsquo;s a basic system administration skill to be able to set
+up private, chrooted SFTP accounts for any number of users on a system, so I&rsquo;m
+linking to this HOWTO, which worked very well for me. Just create a user and
+home directory, add it to the &ldquo;transfer&rdquo; group, create a subdirectory under
+the home and chmod it so it&rsquo;s world readable/writable/whatever.</p>
+
+<p>A couple of important notes about the configuration:</p>
+
+<ul>
+<li>Make sure you put the &ldquo;Match&rdquo; stanza at the very end of the ssd_config file. I had a single directive after it, which sshd parsed as if it were part of the stanza. Not good.</li>
+<li>Even though the entire path has to belong to and be writable only by root, you can still use the %h variable to chroot individual user directories, and then put useful directories underneath the home, for instance &ldquo;pick_up&rdquo; and &ldquo;drop_off&rdquo; or similar.</li>
+</ul>
+
+
+<p>Here&rsquo;s the bottom (and relevant) part of my sshd_config:</p>
+
+<div>
+  <pre><code class='python'>#Subsystem sftp /usr/lib/openssh/sftp-server
+Subsystem sftp internal-sftp  
+UsePAM yes  # not relevant to this discussion, but see my point 
+            # above about Match being at the *bottom*
+Match Group transfer    
+  ChrootDirectory %h    
+  AllowTCPForwarding no     
+  X11Forwarding no  
+  ForceCommand internal-sftp</code></pre>
+</div>
+
+
+<p><a href="http://www.howtoforge.com/restricting-users-to-sftp-plus-%0Asetting-up-chrooted-ssh-sftp-debian-squeeze">Read the HOWTO</a>.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2012/01/04/fugazi-live-series-los-angeles-ca-usa-90891/">Fugazi Live Series: Los Angeles, CA USA 9/08/91</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-01-04T00:00:00+00:00" pubdate data-updated="true">Jan 4<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p><img src="http://assets.dischord.com/images.d/photo/image/588/FLS%0A0395_flyer_1.jpg" alt="Palladium gig flyer" /></p>
+
+<p>Dischord have started their release of the Fugazi Live Series.</p>
+
+<blockquote><p>Between 1987 and 2003, Fugazi played over 1000 concerts in all 50 states and
+all over the world. Over 800 of these shows were recorded by the band&rsquo;s sound
+engineers. The goal of this project is to make each of these recordings
+available to download for a small fee. We will start with 130 shows and
+release more monthly until we&rsquo;re done. A searchable archive lists each show
+along with available photos, flyers and general show info. Each listing with a
+download offers a streaming preview of material for sound quality as well as
+the reading and posting of comments on the show and the recording.</p>
+
+<p>The size and scope this archive dictates that it will remain a semi-
+permanent work-in-progress. We welcome visitors to contribute photos,
+recordings, corrections, and any additional info that may be missing from
+specific shows. Please see the About section for information about
+contributing content.</p></blockquote>
+
+<p>I was at the <a href="http://www.dischord.com/fugazi_live_series/los-angeles-ca-usa-90891">September 8th show at the Hollywood Palladium in
+1991</a>,
+but I don&rsquo;t have a contiguous memory of the gig. Hearing the audio from the
+show when it is released is certain to bring back some memories.</p>
+
+<p>I&rsquo;m afraid neither of the opening bands left much of an impression, but then
+again we were there for Fugazi. It was a big deal.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2012/01/03/the-passing-of-ronald-searle/">The Passing of Ronald Searle</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-01-03T00:00:00+00:00" pubdate data-updated="true">Jan 3<span>rd</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>My friend Laurent wrote to me to say that noted British illustrator Ronald
+Searle has passed away at home in Provence. Searle was the creator of
+Molesworth and St. Trinian&rsquo;s and was very influential on other illustrators,
+including <a href="http://www.youtube.com/watch?v=xbrLnoXdaLg">Matt Groening</a>.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2012/01/03/"></a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-01-03T00:00:00+00:00" pubdate data-updated="true">Jan 3<span>rd</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Today&rsquo;s weather in London, bad even for Northern European standards.</p>
+
+<p>I shot this in two minutes and edited it in 15 minutes.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2012/01/02/onion-ring-omelette-with-american-cheese-it-was-delicious-oh-yes-i-am-total-white-trash-but-i-made-the-onion-rings-myself/">Onion Ring Omelette With “American&#8221; Cheese. It Was Delicious. Oh, Yes I Am Total White Trash, but I Made the Onion Rings Myself!</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-01-02T00:00:00+00:00" pubdate data-updated="true">Jan 2<span>nd</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p><a href=""></a></p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2011/12/30/at-least-on-the-web-you-can-amend-the-ethic-of-the-web-is-to-say-what-you-know-as-quickly-as-you-can-and-then-reiterate-over-and-over-again-the-web-is-kind-of-a-self-cleaning-oven-and-what-you-have-up-/">At Least on the Web, You Can Amend. The Ethic of the Web Is to Say What You Know as Quickly as You Can, and Then Reiterate Over and Over Again. The Web Is Kind of a Self-cleaning Oven, and What You Have Up There Can Grow More Accurate as Time Goes by. That’s Never True of Print. It’s Always There for the Ages.</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-12-30T00:00:00+00:00" pubdate data-updated="true">Dec 30<span>th</span>, 2011</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><blockquote><p>At least on the Web, you can amend. The ethic of the Web is to say what you
+know as quickly as you can, and then reiterate over and over again. The Web is
+kind of a self-cleaning oven, and what you have up there can grow more
+accurate as time goes by. That’s never true of print. It’s always there for
+the ages.</p></blockquote>
+
+<p>&mdash;</p>
+
+<p><a href="http://www.npr.org/2011/12/28/144073696/david-carr-a-media-omnivore-%0Adiscusses-his-%0Adiet?ft=1&amp;f=1001&amp;sc=tw&amp;utm_source=twitterfeed&amp;utm_medium=twitter">David Carr: A Media Omnivore Discusses His Diet :
+NPR</a> (via
+<a href="http://thisistheverge.tumblr.com/">thisistheverge</a>)</p>
+
+<p>This is a variation of the &ldquo;release early, release often&rdquo; directive in
+software development, isn&rsquo;t it?</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2011/12/28/the-pods-cms-framework-for-wordpress/">The Pods CMS Framework for Wordpress</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-12-28T00:00:00+00:00" pubdate data-updated="true">Dec 28<span>th</span>, 2011</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p><a href="http://podscms.org/">The Pods CMS Framework for Wordpress</a></p>
+
+<p>We decided on WordPress about a year ago. We&rsquo;d had some disastrous development
+done on Drupal prior to that&mdash;a completely failed undertaking which took a
+good chunk out of our budget for further development, and after we finished
+picking up the rubble, it became clear to us that working with our existing
+CMS was the way to go. No offense to Drupal, of course.</p>
+
+<p>WordPress used to be just WordPress, a pretty good blog written in PHP like
+Drupal, which isn&rsquo;t exactly my favourite language on Earth. Over the last few
+years, some developers have really taken advantage of WP&rsquo;s plugin and modular
+architecture and have created some plugins that completely transform your WP
+installation. The Pods CMS framework is one such plugin.</p>
+
+<p>There&rsquo;s not much Pods does that you can&rsquo;t do with custom content types and
+custom coding. Okay, there&rsquo;s not anything it can do that can&rsquo;t be done with
+custom coding, but what Pods does is provide a framework upon which you can
+build content types for your site, the &ldquo;pods&rdquo;. As someone who has done it the
+other way, I can say Pods is a much easier path to take and you get a lot of
+stuff &ldquo;for free&rdquo; along with it, including a relatively useful MVC-esque
+structure to put everything into and access to code &ldquo;helpers&rdquo; that allow you
+do implement special features, for example resizing images on upload.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2011/12/28/"></a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-12-28T00:00:00+00:00" pubdate data-updated="true">Dec 28<span>th</span>, 2011</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>The Bust Magazine Christmas Craftacular London 2011. It&rsquo;s a short film I made
+from footage I shot at the craft fair, all of it handheld. It&rsquo;s set to a track
+by Tartufi off of their album &ldquo;Nests of Waves and Wire&rdquo;.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  <div class="pagination">
+    
+      <a class="prev" href="/blog/page/4/">&larr; Older</a>
+    
+    <a href="/blog/archives">Blog Archives</a>
+    
+    <a class="next" href="/blog/page/2/">Newer &rarr;</a>
+    
+  </div>
+</div>
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2013/07/05/apple-hardware-raid/">Apple Hardware RAID</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/02/15/this-is-how-we-sleep-now-apparently/">This Is How We Sleep Now, Apparently.</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/02/14/peeking-out/">Peeking Out</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/02/14/billie-basking-in-the-autumn/">Billie Basking in the Autumn</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/02/13/"></a>
+      </li>
+    
+  </ul>
+</section>
+
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating&#8230;</li>
+  </ul>
+  
+  <a href="https://github.com/allolex">@allolex</a> on GitHub
+  
+  <script type="text/javascript">
+    $(document).ready(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'allolex',
+            count: 5,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
+
+
+
+
+
+  
+</aside>
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2013 - Damon Davison -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = '//platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

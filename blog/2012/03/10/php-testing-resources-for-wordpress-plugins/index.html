@@ -1,0 +1,314 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>PHP Testing Resources for Wordpress Plugins - Allolexicon</title>
+  <meta name="author" content="Damon Davison">
+
+  
+  <meta name="description" content="Since I&rsquo;ve been developing a WordPress theme and plugins for the new website
+at work, I&rsquo;ve been working with PHP quite intensively for &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://allolex.net/blog/2012/03/10/php-testing-resources-for-wordpress-plugins">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="Allolexicon" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/lib/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">Allolexicon</a></h1>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:allolex.net" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">PHP Testing Resources for Wordpress Plugins</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-03-10T00:00:00+00:00" pubdate data-updated="true">Mar 10<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>Since I&rsquo;ve been developing a WordPress theme and plugins for the new website
+at work, I&rsquo;ve been working with PHP quite intensively for the last couple of
+months. For a lot of reasons, PHP isn&rsquo;t my favourite language to work in, and
+the lack of testing culture amongst PHP programmers is really underlined by
+WordPress theme and plugin developers not shipping their code with tests,
+which could also be a reflection of the WordPress core having lots of tests,
+but having them <a href="http://codex.wordpress.org/Automated_Testing">available only when you clone the Subversion
+repository</a>.</p>
+
+<p>I&rsquo;ve also been thinking about how projects like <a href="https://github.com/cashmusic/DIY">CASH Music
+DIY</a> could really benefit from a combination
+of test-driven development (TDD) for the developers themselves and behaviour-
+driven development (BDD) to allow non-experts to write tests that can double
+as documentation using <a href="http://cukes.info/">Cucumber</a>. In fact, I started this
+whole search by looking for tips on how to use Cucumber and
+<a href="http://jnicklas.github.com/capybara/">Capybara</a> to do integration testing on
+PHP projects.</p>
+
+<p>Cucumber allows you to write natural-language feature tests, such as the
+following example taken from their Github repository:</p>
+
+<div>
+  <pre><code class='python'>Feature: Addition
+  In order to avoid silly mistakes
+  As a math idiot 
+  I want to be told the sum of two numbers
+
+  Scenario Outline: Add two numbers
+    Given I have entered  into the calculator
+    And I have entered  into the calculator
+    When I press 
+    Then the result should be  on the screen
+
+  Examples:
+    | input_1 | input_2 | button | output |
+    | 20      | 30      | add    | 50     |
+    | 2       | 5       | add    | 7      |
+    | 0       | 40      | add    | 40     |</code></pre>
+</div>
+
+
+<p>On the unit testing and TDD front, Smashing Magazine has a brand new <a href="http://coding.smashingmagazine.com/2012/03/07/writing-unit-tests-for-%0Awordpress-plugins/">article
+on writing unit tests for WP
+plugins</a> that uses the JavaScript
+<a href="http://docs.jquery.com/QUnit">QUnit</a>. There is a simple <a href="http://www.lastcraft.com/first_test_tutorial.php">Lastcraft Unit
+Testing Tutorial</a> using
+<a href="http://www.simpletest.org/">SimpleTest</a>.</p>
+
+<p>Where BDD is concerned, Otaqui.com has a Gist for using <a href="http://otaqui.com/blog/1072/testing-remote-php-websites-with-capybara-%0Acucumber-mechanize-selenium-2-webdriver-and-saucelabs/">Cucumber, Capybara,
+Mechanize and Selenium to test remote PHP web
+sites</a>.</p>
+
+<p>Since I&rsquo;m just starting out with this, I&rsquo;d love to hear from some PHP testing
+experts and anyone else who can help me fill in the gaps.</p>
+
+<p>More resources I&rsquo;ve found since posting this:</p>
+
+<ul>
+<li>Eric Hogue&rsquo;s <a href="http://erichogue.ca/2011/06/php/test-driven-development-in-php/">post on TDD in PHP using SimpleTest and PHPUnit</a>.</li>
+<li>There&rsquo;s <a href="http://techportal.ibuildings.com/2011/08/03/outside-in-behaviour-driven-development-in-php-part-2/">a PHP port of RSpec called PHPSpec</a>, which is a really cool idea for doing outside-in BDD with PHP. It&rsquo;s not as pretty as Ruby because PHP isn&rsquo;t syntactically sweet enough to eliminate all the sigils that are optional in Ruby and the Domain-Specific Languages (DSL&rsquo;s) derived from it, plus other stuff*.</li>
+<li><p>Sebastian Bergmann and Stefan Priebsch have written <a href="http://qualityassuranceinphpprojects.com/">a book called <em>Real-World Solutions for Developing High-Quality PHP Frameworks and Applications</em></a> whose content is hopefully easier to digest than the English title. Their original German title is <em>Softwarequalität in PHP-Projekten</em> &lsquo;Software quality in PHP projects&#8221;, and much <em>leichter zu verdauen</em>.</p></li>
+<li><p>Camel case for everything, really?</p></li>
+</ul>
+
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Damon Davison</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-03-10T00:00:00+00:00" pubdate data-updated="true">Mar 10<span>th</span>, 2012</time>
+      
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://allolex.net/blog/2012/03/10/php-testing-resources-for-wordpress-plugins/" data-via="allolex" data-counturl="http://allolex.net/blog/2012/03/10/php-testing-resources-for-wordpress-plugins/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2012/03/06/nprthere-are-about-175-indigenous-languages-still-spoken-in-the-united-states-and-a-vast-majority-of-them-are-on-the-verge-of-extinctiona-road-trip-in-search-of-americas-lost-languageslinguist-elizabet/" title="Previous Post: npr:
+
+“There are about 175 indigenous languages still spoken in the United States and a vast majority of them are on the verge of extinction.”
+A Road Trip In Search Of America’s Lost Languages
+Linguist Elizabeth Little took a two-year trip across the U.S. in search of the country’s lost languages. The resulting book is Trip of the Tongue: Cross-Country Travels in Search of America’s Lost Languages.">&laquo; npr:
+
+“There are about 175 indigenous languages still spoken in the United States and a vast majority of them are on the verge of extinction.”
+A Road Trip In Search Of America’s Lost Languages
+Linguist Elizabeth Little took a two-year trip across the U.S. in search of the country’s lost languages. The resulting book is Trip of the Tongue: Cross-Country Travels in Search of America’s Lost Languages.</a>
+      
+      
+        <a class="basic-alignment right" href="/blog/2012/03/17/heres-my-submission-for-a-npr-planet-money-minimalist-econ-poster-its-the-concept-of-negative-equityits-copyright-2012-damon-allen-davison-permission-is-granted-to-npr-to-use-or-re-publish-this-online-/" title="Next Post: Here’s my submission for a NPR Planet Money “Minimalist Econ Poster". It’s the concept of “negative equity". 
+It’s Copyright ©2012 Damon Allen Davison. Permission is granted to NPR to use or re-publish this online as long as I’m credited.">Here’s my submission for a NPR Planet Money “Minimalist Econ Poster". It’s the concept of “negative equity". 
+It’s Copyright ©2012 Damon Allen Davison. Permission is granted to NPR to use or re-publish this online as long as I’m credited. &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2013/07/05/apple-hardware-raid/">Apple Hardware RAID</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/02/15/this-is-how-we-sleep-now-apparently/">This Is How We Sleep Now, Apparently.</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/02/14/peeking-out/">Peeking Out</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/02/14/billie-basking-in-the-autumn/">Billie Basking in the Autumn</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/02/13/"></a>
+      </li>
+    
+  </ul>
+</section>
+
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating...</li>
+  </ul>
+  
+  <a href="https://github.com/allolex">@allolex</a> on GitHub
+  
+  <script type="text/javascript">
+    $(document).ready(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'allolex',
+            count: 5,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
+
+
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2013 - Damon Davison -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = '//platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

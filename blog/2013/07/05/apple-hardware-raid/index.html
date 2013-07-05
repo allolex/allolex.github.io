@@ -1,0 +1,270 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Apple Hardware RAID - Allolexicon</title>
+  <meta name="author" content="Damon Davison">
+
+  
+  <meta name="description" content="When I got home yesterday, I noticed that our 2009 Mac Pro was unresponsive. I
+checked to see if it was on the network, and then powered it down. &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://allolex.net/blog/2013/07/05/apple-hardware-raid">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="Allolexicon" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/lib/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">Allolexicon</a></h1>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:allolex.net" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Apple Hardware RAID</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-07-05T00:00:00+01:00" pubdate data-updated="true">Jul 5<span>th</span>, 2013</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>When I got home yesterday, I noticed that our 2009 Mac Pro was unresponsive. I
+checked to see if it was on the network, and then powered it down. When I
+turned it back on, it booted into the recovery volume.</p>
+
+<p>That Mac Pro had a RAID 5 array on it, composed of four 2TB hard drives,
+bought for a premium price from Apple so they would support the system.</p>
+
+<p>I opened up the RAID utility and saw that the RAID controller was recognising
+all four hard drives were no longer in a RAID set. Although all of them were
+reporting that they were &ldquo;ok&rdquo;, the RAID set and therefore the RAID volume were
+gone.</p>
+
+<p>I telephoned Apple, happy to pay for someone to guide me through the recovery
+since there is <strong>absolutely no</strong> documentation on recovering a RAID 5 system
+with a missing RAID set. Their technical support was courteous, but not well-
+informed.</p>
+
+<p>After going over it and leaving it with them to &ldquo;investigate&rdquo; further, I
+received a phone call today from the person who was helping me. The short of
+it is that Apple say if your RAID set is missing, you&rsquo;re screwed. They also
+say that you should not be using RAID for backup purposes, as it&rsquo;s only
+designed to protect you from disk failure.</p>
+
+<p>But of course it wasn&rsquo;t a disk that failed. It was the RAID itself, and it
+took out all our data with it. We will be restoring from backup, but the size
+of the RAID (4.7TB) meant that backing up to external drives is complicated,
+and our backups are not completely up-to-date.</p>
+
+<p>The point is that we paid nearly £500 for the RAID card and it has proved to
+be a complete waste of money. If your Dell RAID dies on you, then Dell will
+help you recover it, but clearly Apple don&rsquo;t take their business support
+seriously.</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Damon Davison</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-07-05T00:00:00+01:00" pubdate data-updated="true">Jul 5<span>th</span>, 2013</time>
+      
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://allolex.net/blog/2013/07/05/apple-hardware-raid/" data-via="allolex" data-counturl="http://allolex.net/blog/2013/07/05/apple-hardware-raid/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2013/02/15/this-is-how-we-sleep-now-apparently/" title="Previous Post: This is how we sleep now, apparently.">&laquo; This is how we sleep now, apparently.</a>
+      
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2013/07/05/apple-hardware-raid/">Apple Hardware RAID</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/02/15/this-is-how-we-sleep-now-apparently/">This Is How We Sleep Now, Apparently.</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/02/14/peeking-out/">Peeking Out</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/02/14/billie-basking-in-the-autumn/">Billie Basking in the Autumn</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/02/13/"></a>
+      </li>
+    
+  </ul>
+</section>
+
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating...</li>
+  </ul>
+  
+  <a href="https://github.com/allolex">@allolex</a> on GitHub
+  
+  <script type="text/javascript">
+    $(document).ready(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'allolex',
+            count: 5,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
+
+
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2013 - Damon Davison -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = '//platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>
