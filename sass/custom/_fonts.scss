@@ -2,9 +2,20 @@
 // To give it a try, uncomment some of the lines below rebuild your blog, and see how it works. your sites's.
 // If you love to use Web Fonts, you also need to add some lines to source/_includes/custom/head.html
 
-$sans: "Lato", sans-serif;
-$serif: "Quattrocento", serif;
+$normal-font-weight: 400;
+
+$sans: "Ideal Sans SSm A", "Ideal Sans SSm B", sans-serif;
+$serif: "Ideal Sans SSm A", "Ideal Sans SSm B", sans-serif;
+
 $mono: "Oxygen Mono", monospace;
-$heading-font-family: "Archivo Black", sans-serif;
-$header-title-font-family: "Righteous", sans-serif;
+$mono-font-weight: 300;
+
+$meta: "Hoefler Titling A", "Hoefler Titling B", serif;
+$meta-weight: 300;
+$meta-style: italic;
+
+$heading-font-family: "Hoefler Titling A", "Hoefler Titling B", serif;
+$heading-font-weight: 300;
+$header-title-font-family: "Hoefler Titling A", "Hoefler Titling B", serif;
+$header-title-font-weight: 700;
 $header-subtitle-font-family: "Archivo Black", sans-serif;

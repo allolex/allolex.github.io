@@ -1,4 +1,54 @@
 // This File is imported last, and will override other styles in the cascade
 // Add styles here to make changes without digging in too much
 
-.serif { font-family: $sans; }
+$header-font-color: #151515;
+
+html {
+  background: none;
+}
+
+body > header {
+  background: none;
+}
+
+.serif {
+  font-family: $sans;
+}
+
+article .entry-content {
+  width: 700px;
+}
+
+body > nav,
+body > footer {
+  background: none;
+}
+
+body > header h1 a,
+body > header h1 a:visited,
+body > header h1 a:hover {
+  color: $header-font-color;
+}
+
+body > aside.sidebar {
+  background: none;
+}
+
+p.meta > time {
+  font-family: $meta;
+  font-weight: 300;
+  font-style: italic;
+}
+
+p.meta > time span {
+  font-size: 0.7em;
+  vertical-align: top;
+}
+
+body > div {
+  background: none;
+}
+
+body > div > div {
+  background: none;
+}
