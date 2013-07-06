@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: software | Allolexicon]]></title>
+  <link href="http://allolex.net/blog/categories/software/atom.xml" rel="self"/>
+  <link href="http://allolex.net/"/>
+  <updated>2013-07-06T12:01:28+01:00</updated>
+  <id>http://allolex.net/</id>
+  <author>
+    <name><![CDATA[Damon Davison]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Rubyweb]]></title>
+    <link href="http://allolex.net/blog/2013/07/06/rubyweb/"/>
+    <updated>2013-07-06T11:49:00+01:00</updated>
+    <id>http://allolex.net/blog/2013/07/06/rubyweb</id>
+    <content type="html"><![CDATA[<p><a href="https://github.com/allolex/rubyweb">Rubyweb</a> is a small program I wrote to
+address a small problem, but one that keeps popping up. Apparently, the
+&ldquo;normal&rdquo; way of running a simple web server in Ruby is too difficult, so people
+have been using Python&rsquo;s <em>SimpleHTTPServer</em> instead. Now I&rsquo;m totally cool with
+using Python or any other language&rsquo;s tools to do that, but the main argument
+seems to be the number of characters you have to type in order to launch the
+web server.</p>
+
+<p><strong>Rubyweb</strong> is very simple to install and use:</p>
+
+<p><code>
+gem install rubyweb
+rubyweb
+</code></p>
+
+<p>Have a look at <a href="https://github.com/allolex/rubyweb">rubyweb&rsquo;s GitHub repo</a> and
+let me know what you think.</p>
+]]></content>
+  </entry>
+  
+</feed>
