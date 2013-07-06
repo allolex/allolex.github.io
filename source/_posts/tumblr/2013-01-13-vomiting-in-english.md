@@ -28,11 +28,8 @@ Some synonyms for "vomit" (n,v) in English
   * toss your cookies
   * upchuck
 
-Many thanks to [Jav](https://twitter.com/jav_villegas), [Kelly-
-Lee](https://twitter.com/Overkell), and
-[Allison](https://twitter.com/Schnacks) for their contributions.
+Many thanks to [Jav](https://twitter.com/jav_villegas), [Kelly-Lee](https://twitter.com/Overkell), and [Allison](https://twitter.com/Schnacks) for their contributions.
 
 So does vomit have a special meaning for speakers of English?
 
-Just putting a lid on the whole notion of [linguistic
-relativity](http://en.wikipedia.org/wiki/Linguistic_relativity).
+Just putting a lid on the whole notion of [linguistic relativity](http://en.wikipedia.org/wiki/Linguistic_relativity).
