@@ -4,7 +4,7 @@
   <title><![CDATA[Category: software | Allolexicon]]></title>
   <link href="http://allolex.net/blog/categories/software/atom.xml" rel="self"/>
   <link href="http://allolex.net/"/>
-  <updated>2013-07-06T22:42:40+01:00</updated>
+  <updated>2013-07-06T23:05:56+01:00</updated>
   <id>http://allolex.net/</id>
   <author>
     <name><![CDATA[Damon Davison]]></name>
@@ -18,7 +18,7 @@
     <link href="http://allolex.net/blog/2013/07/06/rubyweb/"/>
     <updated>2013-07-06T11:49:00+01:00</updated>
     <id>http://allolex.net/blog/2013/07/06/rubyweb</id>
-    <content type="html"><![CDATA[<p><a href="https://github.com/allolex/rubyweb">Rubyweb</a> is a small program I wrote to
+    <content type="html"><![CDATA[<p><a href="https://github.com/allolex/rubyweb"><strong>Rubyweb</strong></a> is a small program I wrote to
 address a small problem, but one that keeps popping up. Apparently, the
 &ldquo;normal&rdquo; way of running a simple web server in Ruby is too difficult, so people
 have been using Python&rsquo;s <em>SimpleHTTPServer</em> instead. Now I&rsquo;m totally cool with
@@ -33,7 +33,7 @@ gem install rubyweb
 rubyweb
 </code></p>
 
-<p>Have a look at <a href="https://github.com/allolex/rubyweb">rubyweb&rsquo;s GitHub repo</a> and
+<p>Have a look at <a href="https://github.com/allolex/rubyweb"><strong>Rubyweb</strong>&rsquo;s GitHub repo</a> and
 let me know what you think.</p>
 ]]></content>
   </entry>
