@@ -10,7 +10,7 @@ categories:
   - web server
 ---
 
-[Rubyweb](https://github.com/allolex/rubyweb) is a small program I wrote to
+[**Rubyweb**](https://github.com/allolex/rubyweb) is a small program I wrote to
 address a small problem, but one that keeps popping up. Apparently, the
 "normal" way of running a simple web server in Ruby is too difficult, so people
 have been using Python's *SimpleHTTPServer* instead. Now I'm totally cool with
@@ -25,5 +25,5 @@ gem install rubyweb
 rubyweb
 ```
 
-Have a look at [rubyweb's GitHub repo](https://github.com/allolex/rubyweb) and
+Have a look at [**Rubyweb**'s GitHub repo](https://github.com/allolex/rubyweb) and
 let me know what you think.
