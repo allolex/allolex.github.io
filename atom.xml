@@ -4,7 +4,7 @@
   <title><![CDATA[Allolexicon]]></title>
   <link href="http://allolex.net/atom.xml" rel="self"/>
   <link href="http://allolex.net/"/>
-  <updated>2013-07-06T20:45:34+01:00</updated>
+  <updated>2013-07-06T22:04:03+01:00</updated>
   <id>http://allolex.net/</id>
   <author>
     <name><![CDATA[Damon Davison]]></name>
@@ -116,11 +116,11 @@ seriously.</p>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[]]></title>
-    <link href="http://allolex.net/blog/2013/02/13/"/>
+    <title type="html"><![CDATA[Condensation]]></title>
+    <link href="http://allolex.net/blog/2013/02/13/condensation/"/>
     <updated>2013-02-13T00:00:00+00:00</updated>
-    <id>http://allolex.net/blog/2013/02/</id>
-    <content type="html"><![CDATA[<p><a href=""></a></p>
+    <id>http://allolex.net/blog/2013/02/13/condensation</id>
+    <content type="html"><![CDATA[<p><img src="http://farm4.staticflickr.com/3733/9226050254_82a23cea5e_h.jpg" alt="Condensation" /></p>
 ]]></content>
   </entry>
   
@@ -161,19 +161,19 @@ seriously.</p>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[]]></title>
-    <link href="http://allolex.net/blog/2013/01/31/"/>
+    <title type="html"><![CDATA[Old version of the internet]]></title>
+    <link href="http://allolex.net/blog/2013/01/31/old-version-internet/"/>
     <updated>2013-01-31T00:00:00+00:00</updated>
-    <id>http://allolex.net/blog/2013/01/</id>
+    <id>http://allolex.net/blog/2013/01/31/old-version-internet</id>
     <content type="html"><![CDATA[<p>OH: &ldquo;they&rsquo;ve got an old version of the Internet on&rdquo;</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Ana of Lisbon]]></title>
-    <link href="http://allolex.net/blog/2013/01/30/damonallendavisonana-in-lisbon-2009mine-from-a-few-years-back/"/>
+    <link href="http://allolex.net/blog/2013/01/30/ana-de-lisboa/"/>
     <updated>2013-01-30T00:00:00+00:00</updated>
-    <id>http://allolex.net/blog/2013/01/30/damonallendavisonana-in-lisbon-2009mine-from-a-few-years-back</id>
+    <id>http://allolex.net/blog/2013/01/30/ana-de-lisboa</id>
     <content type="html"><![CDATA[<p><img src="http://farm9.staticflickr.com/8096/8420784501_77607efe66_h.jpg" alt="Ana of Lisbon" /></p>
 
 <p>Ana in Lisbon, 2009.</p>
@@ -184,9 +184,9 @@ seriously.</p>
   
   <entry>
     <title type="html"><![CDATA[Billie, Sleeping]]></title>
-    <link href="http://allolex.net/blog/2013/01/21/apparently-im-the-sort-of-person-who-takes-photos-of-their-dog-and-posts-them-on-the-internet-just-so-were-clear-about-what-sort-of-person-i-am-i-also-take-photos-of-my-meals-and-post-them-too-sometime/"/>
+    <link href="http://allolex.net/blog/2013/01/21/dog-photographer/"/>
     <updated>2013-01-21T00:00:00+00:00</updated>
-    <id>http://allolex.net/blog/2013/01/21/apparently-im-the-sort-of-person-who-takes-photos-of-their-dog-and-posts-them-on-the-internet-just-so-were-clear-about-what-sort-of-person-i-am-i-also-take-photos-of-my-meals-and-post-them-too-sometime</id>
+    <id>http://allolex.net/blog/2013/01/21/dog-photographer</id>
     <content type="html"><![CDATA[<p><img src="http://allolex.net/photos/billie-apparently.jpg" alt="Billie" /></p>
 
 <p>Apparently I’m the sort of person who takes photos of their dog and posts them
@@ -250,11 +250,11 @@ take photos of my meals and post them, too. Sometimes.</p>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[]]></title>
-    <link href="http://allolex.net/blog/2013/01/11/"/>
+    <title type="html"><![CDATA[Pork ribs]]></title>
+    <link href="http://allolex.net/blog/2013/01/11/pork-ribs/"/>
     <updated>2013-01-11T00:00:00+00:00</updated>
-    <id>http://allolex.net/blog/2013/01/</id>
-    <content type="html"><![CDATA[<p><a href=""></a></p>
+    <id>http://allolex.net/blog/2013/01/11/pork-ribs</id>
+    <content type="html"><![CDATA[<p><img src="http://farm3.staticflickr.com/2814/9223270845_a24199d237_o.jpg" alt="Pork ribs" /></p>
 ]]></content>
   </entry>
   
