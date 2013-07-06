@@ -11,4 +11,4 @@ tags:
 - sleep
 - sleeping
 ---
-[]()
+![Billie basking in autumn](http://farm9.staticflickr.com/8170/8069903576_aa49b29b1e_h.jpg)
