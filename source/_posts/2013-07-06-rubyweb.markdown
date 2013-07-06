@@ -1,0 +1,29 @@
+---
+layout: post
+title: "Rubyweb"
+date: 2013-07-06 11:49
+comments: true
+categories: 
+  - ruby
+  - github
+  - software
+  - web server
+---
+
+[Rubyweb](https://github.com/allolex/rubyweb) is a small program I wrote to
+address a small problem, but one that keeps popping up. Apparently, the
+"normal" way of running a simple web server in Ruby is too difficult, so people
+have been using Python's *SimpleHTTPServer* instead. Now I'm totally cool with
+using Python or any other language's tools to do that, but the main argument
+seems to be the number of characters you have to type in order to launch the
+web server.
+
+**Rubyweb** is very simple to install and use:
+
+```
+gem install rubyweb
+rubyweb
+```
+
+Have a look at [rubyweb's GitHub repo](https://github.com/allolex/rubyweb) and
+let me know what you think.
