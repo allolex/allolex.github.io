@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: media ethics | Allolexicon]]></title>
+  <link href="http://allolex.net/blog/categories/media-ethics/atom.xml" rel="self"/>
+  <link href="http://allolex.net/"/>
+  <updated>2013-07-08T22:35:37+01:00</updated>
+  <id>http://allolex.net/</id>
+  <author>
+    <name><![CDATA[Damon Davison]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[The ethics of the web]]></title>
+    <link href="http://allolex.net/blog/2011/12/30/at-least-on-the-web/"/>
+    <updated>2011-12-30T00:00:00+00:00</updated>
+    <id>http://allolex.net/blog/2011/12/30/at-least-on-the-web</id>
+    <content type="html"><![CDATA[<p><a href="http://www.npr.org/2011/12/28/144073696/david-carr-a-media-omnivore-%0Adiscusses-his-%0Adiet?ft=1&amp;f=1001&amp;sc=tw&amp;utm_source=twitterfeed&amp;utm_medium=twitter">David Carr: A Media Omnivore Discusses His Diet :
+NPR</a> (via
+<a href="http://thisistheverge.tumblr.com/">thisistheverge</a>)</p>
+
+<blockquote><p>At least on the Web, you can amend.
+The ethic of the Web is to say what
+you know as quickly as you can, and
+then reiterate over and over again.
+The Web is kind of a self-cleaning
+oven, and what you have up there can
+grow more accurate as time goes by.
+That’s never true of print. It’s
+always there for the ages.</p></blockquote>
+
+<p>This is a variation of the &ldquo;release early, release often&rdquo; directive in
+software development, isn&rsquo;t it?</p>
+]]></content>
+  </entry>
+  
+</feed>

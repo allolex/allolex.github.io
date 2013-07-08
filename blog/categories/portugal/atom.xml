@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: portugal | Allolexicon]]></title>
+  <link href="http://allolex.net/blog/categories/portugal/atom.xml" rel="self"/>
+  <link href="http://allolex.net/"/>
+  <updated>2013-07-08T22:35:44+01:00</updated>
+  <id>http://allolex.net/</id>
+  <author>
+    <name><![CDATA[Damon Davison]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Ana of Lisbon]]></title>
+    <link href="http://allolex.net/blog/2013/01/30/ana-de-lisboa/"/>
+    <updated>2013-01-30T00:00:00+00:00</updated>
+    <id>http://allolex.net/blog/2013/01/30/ana-de-lisboa</id>
+    <content type="html"><![CDATA[<p><img src="http://farm9.staticflickr.com/8096/8420784501_77607efe66_h.jpg" alt="Ana of Lisbon" /></p>
+
+<p>Ana in Lisbon, 2009.</p>
+
+<p>Mine from a few years back</p>
+]]></content>
+  </entry>
+  
+</feed>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: door | Allolexicon]]></title>
+  <link href="http://allolex.net/blog/categories/door/atom.xml" rel="self"/>
+  <link href="http://allolex.net/"/>
+  <updated>2013-07-08T22:35:44+01:00</updated>
+  <id>http://allolex.net/</id>
+  <author>
+    <name><![CDATA[Damon Davison]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Gentlemen]]></title>
+    <link href="http://allolex.net/blog/2013/02/11/ladies-and-gentlemen/"/>
+    <updated>2013-02-11T00:00:00+00:00</updated>
+    <id>http://allolex.net/blog/2013/02/11/ladies-and-gentlemen</id>
+    <content type="html"><![CDATA[<p><img src="http://farm3.staticflickr.com/2817/9226050408_4978841901_o.jpg" alt="gentlemen" /></p>
+]]></content>
+  </entry>
+  
+</feed>

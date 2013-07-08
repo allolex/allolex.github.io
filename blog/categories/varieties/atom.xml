@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: varieties | Allolexicon]]></title>
+  <link href="http://allolex.net/blog/categories/varieties/atom.xml" rel="self"/>
+  <link href="http://allolex.net/"/>
+  <updated>2013-07-08T22:35:37+01:00</updated>
+  <id>http://allolex.net/</id>
+  <author>
+    <name><![CDATA[Damon Davison]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[In search of lost languages]]></title>
+    <link href="http://allolex.net/blog/2012/03/06/indiginous-languages-usa/"/>
+    <updated>2012-03-06T00:00:00+00:00</updated>
+    <id>http://allolex.net/blog/2012/03/06/indiginous-languages-usa</id>
+    <content type="html"><![CDATA[<p>  npr:</p>
+
+<blockquote><p>  “There are about 175 indigenous
+  languages still spoken in the
+  United States and a vast majority
+  of them are on the verge of
+  extinction.” A Road Trip In
+  Search Of America’s Lost
+  Languages Linguist Elizabeth
+  Little took a two-year trip
+  across the U.S. in search of the
+  country’s lost languages. The
+  resulting book is Trip of the
+  Tongue: Cross-Country Travels in
+  Search of America’s Lost
+  Languages.</p></blockquote>
+]]></content>
+  </entry>
+  
+</feed>

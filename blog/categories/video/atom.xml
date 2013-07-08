@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: video | Allolexicon]]></title>
+  <link href="http://allolex.net/blog/categories/video/atom.xml" rel="self"/>
+  <link href="http://allolex.net/"/>
+  <updated>2013-07-08T22:35:37+01:00</updated>
+  <id>http://allolex.net/</id>
+  <author>
+    <name><![CDATA[Damon Davison]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[MMXII Hackathon video]]></title>
+    <link href="http://allolex.net/blog/2012/12/21/MMXII-Hackathon-video/"/>
+    <updated>2012-12-21T00:00:00+00:00</updated>
+    <id>http://allolex.net/blog/2012/12/21/MMXII-Hackathon-video</id>
+    <content type="html"><![CDATA[<iframe src="http://player.vimeo.com/video/59128361" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+
+<p>A video I made for the MMXII Hackathon we organised at <a href="http://new-%0Abamboo.co.uk">New Bamboo</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Today's Weather]]></title>
+    <link href="http://allolex.net/blog/2012/01/03/todays-weather/"/>
+    <updated>2012-01-03T00:00:00+00:00</updated>
+    <id>http://allolex.net/blog/2012/01/03/todays-weather</id>
+    <content type="html"><![CDATA[<object type="application/x-shockwave-flash" width="400" height="225" data="http://www.flickr.com/apps/video/stewart.swf?v=109786" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"> <param name="flashvars" value="intl_lang=en-us&photo_secret=e65be077b5&photo_id=6627761097"></param> <param name="movie" value="http://www.flickr.com/apps/video/stewart.swf?v=109786"></param> <param name="bgcolor" value="#000000"></param> <param name="allowFullScreen" value="true"></param><embed type="application/x-shockwave-flash" src="http://www.flickr.com/apps/video/stewart.swf?v=109786" bgcolor="#000000" allowfullscreen="true" flashvars="intl_lang=en-us&photo_secret=e65be077b5&photo_id=6627761097" height="225" width="400"></embed></object>
+
+
+<p>Today&rsquo;s weather in London, bad even for Northern European standards.</p>
+
+<p>I shot this in two minutes and edited it in 15 minutes.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Christmas Craftacular 2011]]></title>
+    <link href="http://allolex.net/blog/2011/12/28/christmas-craftacular/"/>
+    <updated>2011-12-28T00:00:00+00:00</updated>
+    <id>http://allolex.net/blog/2011/12/28/christmas-craftacular</id>
+    <content type="html"><![CDATA[<iframe src="http://player.vimeo.com/video/33550616" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+
+<p>The Bust Magazine Christmas Craftacular London 2011. It&rsquo;s a short film I made
+from footage I shot at the craft fair, all of it handheld. It&rsquo;s set to a track
+by Tartufi off of their album &ldquo;Nests of Waves and Wire&rdquo;.</p>
+]]></content>
+  </entry>
+  
+</feed>

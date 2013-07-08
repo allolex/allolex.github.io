@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: street photography | Allolexicon]]></title>
+  <link href="http://allolex.net/blog/categories/street-photography/atom.xml" rel="self"/>
+  <link href="http://allolex.net/"/>
+  <updated>2013-07-08T22:35:44+01:00</updated>
+  <id>http://allolex.net/</id>
+  <author>
+    <name><![CDATA[Damon Davison]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[London bus arrival]]></title>
+    <link href="http://allolex.net/blog/2013/02/12/london-bus-arrival/"/>
+    <updated>2013-02-12T00:00:00+00:00</updated>
+    <id>http://allolex.net/blog/2013/02/12/london-bus-arrival</id>
+    <content type="html"><![CDATA[<p><img src="http://farm8.staticflickr.com/7372/9226050360_083dec6794_o.jpg" alt="bus arrival" /></p>
+]]></content>
+  </entry>
+  
+</feed>

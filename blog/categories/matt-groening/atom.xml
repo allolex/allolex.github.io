@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: matt groening | Allolexicon]]></title>
+  <link href="http://allolex.net/blog/categories/matt-groening/atom.xml" rel="self"/>
+  <link href="http://allolex.net/"/>
+  <updated>2013-07-08T22:35:37+01:00</updated>
+  <id>http://allolex.net/</id>
+  <author>
+    <name><![CDATA[Damon Davison]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[The passing of Ronald Searle]]></title>
+    <link href="http://allolex.net/blog/2012/01/03/the-passing-of-ronald-searle/"/>
+    <updated>2012-01-03T00:00:00+00:00</updated>
+    <id>http://allolex.net/blog/2012/01/03/the-passing-of-ronald-searle</id>
+    <content type="html"><![CDATA[<p>My friend Laurent wrote to me to say that noted British illustrator Ronald
+Searle has passed away at home in Provence. Searle was the creator of
+Molesworth and St. Trinian&rsquo;s and was very influential on other illustrators,
+including <a href="http://www.youtube.com/watch?v=xbrLnoXdaLg">Matt Groening</a>.</p>
+]]></content>
+  </entry>
+  
+</feed>

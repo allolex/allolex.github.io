@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: shoreditch | Allolexicon]]></title>
+  <link href="http://allolex.net/blog/categories/shoreditch/atom.xml" rel="self"/>
+  <link href="http://allolex.net/"/>
+  <updated>2013-07-08T22:35:44+01:00</updated>
+  <id>http://allolex.net/</id>
+  <author>
+    <name><![CDATA[Damon Davison]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Ozone, Shoreditch]]></title>
+    <link href="http://allolex.net/blog/2013/01/12/ozone/"/>
+    <updated>2013-01-12T00:00:00+00:00</updated>
+    <id>http://allolex.net/blog/2013/01/12/ozone</id>
+    <content type="html"><![CDATA[<p><img src="http://farm4.staticflickr.com/3733/9223270867_db8e89b9ab_o.jpg" alt="Ozone, Shoreditch" /></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA["Benedict-style" eggs.]]></title>
+    <link href="http://allolex.net/blog/2013/01/12/benedict-style-eggs/"/>
+    <updated>2013-01-12T00:00:00+00:00</updated>
+    <id>http://allolex.net/blog/2013/01/12/benedict-style-eggs</id>
+    <content type="html"><![CDATA[<p><a href=""></a></p>
+]]></content>
+  </entry>
+  
+</feed>

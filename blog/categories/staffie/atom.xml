@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: staffie | Allolexicon]]></title>
+  <link href="http://allolex.net/blog/categories/staffie/atom.xml" rel="self"/>
+  <link href="http://allolex.net/"/>
+  <updated>2013-07-08T22:35:44+01:00</updated>
+  <id>http://allolex.net/</id>
+  <author>
+    <name><![CDATA[Damon Davison]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[This is how we sleep now, apparently.]]></title>
+    <link href="http://allolex.net/blog/2013/02/15/this-is-how-we-sleep-now-apparently/"/>
+    <updated>2013-02-15T00:00:00+00:00</updated>
+    <id>http://allolex.net/blog/2013/02/15/this-is-how-we-sleep-now-apparently</id>
+    <content type="html"><![CDATA[<p><img src="http://farm8.staticflickr.com/7414/9223270343_eb87b433bd_o.jpg" alt="Billie" /></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Peeking out]]></title>
+    <link href="http://allolex.net/blog/2013/02/14/peeking-out/"/>
+    <updated>2013-02-14T00:00:00+00:00</updated>
+    <id>http://allolex.net/blog/2013/02/14/peeking-out</id>
+    <content type="html"><![CDATA[<p><img src="http://farm3.staticflickr.com/2856/9226048798_ee08c1eefb_o.jpg" alt="nose peeking out" /></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Billie basking in the autumn]]></title>
+    <link href="http://allolex.net/blog/2013/02/14/billie-basking-in-the-autumn/"/>
+    <updated>2013-02-14T00:00:00+00:00</updated>
+    <id>http://allolex.net/blog/2013/02/14/billie-basking-in-the-autumn</id>
+    <content type="html"><![CDATA[<p><img src="http://farm9.staticflickr.com/8170/8069903576_aa49b29b1e_h.jpg" alt="Billie basking in autumn" /></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Billie always wants to play bones when we are getting dressed.]]></title>
+    <link href="http://allolex.net/blog/2013/02/12/billie-always-wants-to-play-bones-when-we-are-getting-dressed/"/>
+    <updated>2013-02-12T00:00:00+00:00</updated>
+    <id>http://allolex.net/blog/2013/02/12/billie-always-wants-to-play-bones-when-we-are-getting-dressed</id>
+    <content type="html"><![CDATA[<p><img src="http://farm6.staticflickr.com/5522/9223272055_38d88e9ac0_o.jpg" alt="Billie with bone" /></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Billie, Sleeping]]></title>
+    <link href="http://allolex.net/blog/2013/01/21/dog-photographer/"/>
+    <updated>2013-01-21T00:00:00+00:00</updated>
+    <id>http://allolex.net/blog/2013/01/21/dog-photographer</id>
+    <content type="html"><![CDATA[<p><img src="/photos/billie-apparently.jpg" alt="Billie" /></p>
+
+<p>Apparently I’m the sort of person who takes photos of their dog and posts them
+on the Internet. Just so we’re clear about what sort of person I am, I also
+take photos of my meals and post them, too. Sometimes.</p>
+]]></content>
+  </entry>
+  
+</feed>

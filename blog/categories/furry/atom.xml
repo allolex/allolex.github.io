@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: furry | Allolexicon]]></title>
+  <link href="http://allolex.net/blog/categories/furry/atom.xml" rel="self"/>
+  <link href="http://allolex.net/"/>
+  <updated>2013-07-08T22:35:44+01:00</updated>
+  <id>http://allolex.net/</id>
+  <author>
+    <name><![CDATA[Damon Davison]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Peeking out]]></title>
+    <link href="http://allolex.net/blog/2013/02/14/peeking-out/"/>
+    <updated>2013-02-14T00:00:00+00:00</updated>
+    <id>http://allolex.net/blog/2013/02/14/peeking-out</id>
+    <content type="html"><![CDATA[<p><img src="http://farm3.staticflickr.com/2856/9226048798_ee08c1eefb_o.jpg" alt="nose peeking out" /></p>
+]]></content>
+  </entry>
+  
+</feed>

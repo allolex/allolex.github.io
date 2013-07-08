@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: rawhide | Allolexicon]]></title>
+  <link href="http://allolex.net/blog/categories/rawhide/atom.xml" rel="self"/>
+  <link href="http://allolex.net/"/>
+  <updated>2013-07-08T22:35:44+01:00</updated>
+  <id>http://allolex.net/</id>
+  <author>
+    <name><![CDATA[Damon Davison]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Billie always wants to play bones when we are getting dressed.]]></title>
+    <link href="http://allolex.net/blog/2013/02/12/billie-always-wants-to-play-bones-when-we-are-getting-dressed/"/>
+    <updated>2013-02-12T00:00:00+00:00</updated>
+    <id>http://allolex.net/blog/2013/02/12/billie-always-wants-to-play-bones-when-we-are-getting-dressed</id>
+    <content type="html"><![CDATA[<p><img src="http://farm6.staticflickr.com/5522/9223272055_38d88e9ac0_o.jpg" alt="Billie with bone" /></p>
+]]></content>
+  </entry>
+  
+</feed>

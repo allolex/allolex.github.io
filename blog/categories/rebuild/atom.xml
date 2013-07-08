@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: rebuild | Allolexicon]]></title>
+  <link href="http://allolex.net/blog/categories/rebuild/atom.xml" rel="self"/>
+  <link href="http://allolex.net/"/>
+  <updated>2013-07-08T22:35:44+01:00</updated>
+  <id>http://allolex.net/</id>
+  <author>
+    <name><![CDATA[Damon Davison]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Apple Hardware RAID]]></title>
+    <link href="http://allolex.net/blog/2013/07/05/apple-hardware-raid/"/>
+    <updated>2013-07-05T00:00:00+01:00</updated>
+    <id>http://allolex.net/blog/2013/07/05/apple-hardware-raid</id>
+    <content type="html"><![CDATA[<p>When I got home yesterday, I noticed that our 2009 Mac Pro was unresponsive. I
+checked to see if it was on the network, and then powered it down. When I
+turned it back on, it booted into the recovery volume.</p>
+
+<p>That Mac Pro had a RAID 5 array on it, composed of four 2TB hard drives,
+bought for a premium price from Apple so they would support the system.</p>
+
+<p>I opened up the RAID utility and saw that the RAID controller was recognising
+all four hard drives were no longer in a RAID set. Although all of them were
+reporting that they were &ldquo;ok&rdquo;, the RAID set and therefore the RAID volume were
+gone.</p>
+
+<p>I telephoned Apple, happy to pay for someone to guide me through the recovery
+since there is <strong>absolutely no</strong> documentation on recovering a RAID 5 system
+with a missing RAID set. Their technical support was courteous, but not well-
+informed.</p>
+
+<p>After going over it and leaving it with them to &ldquo;investigate&rdquo; further, I
+received a phone call today from the person who was helping me. The short of
+it is that Apple say if your RAID set is missing, you&rsquo;re screwed. They also
+say that you should not be using RAID for backup purposes, as it&rsquo;s only
+designed to protect you from disk failure.</p>
+
+<p>But of course it wasn&rsquo;t a disk that failed. It was the RAID itself, and it
+took out all our data with it. We will be restoring from backup, but the size
+of the RAID (4.7TB) meant that backing up to external drives is complicated,
+and our backups are not completely up-to-date.</p>
+
+<p>The point is that we paid nearly £500 for the RAID card and it has proved to
+be a complete waste of money. If your Dell RAID dies on you, then Dell will
+help you recover it, but clearly Apple don&rsquo;t take their business support
+seriously.</p>
+]]></content>
+  </entry>
+  
+</feed>

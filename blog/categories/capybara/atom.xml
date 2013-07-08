@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: capybara | Allolexicon]]></title>
+  <link href="http://allolex.net/blog/categories/capybara/atom.xml" rel="self"/>
+  <link href="http://allolex.net/"/>
+  <updated>2013-07-08T22:35:37+01:00</updated>
+  <id>http://allolex.net/</id>
+  <author>
+    <name><![CDATA[Damon Davison]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[PHP Testing Resources for Wordpress Plugins]]></title>
+    <link href="http://allolex.net/blog/2012/03/10/php-testing-resources-for-wordpress-plugins/"/>
+    <updated>2012-03-10T00:00:00+00:00</updated>
+    <id>http://allolex.net/blog/2012/03/10/php-testing-resources-for-wordpress-plugins</id>
+    <content type="html"><![CDATA[<p>Since I&rsquo;ve been developing a WordPress theme and plugins for the new website
+at work, I&rsquo;ve been working with PHP quite intensively for the last couple of
+months. For a lot of reasons, PHP isn&rsquo;t my favourite language to work in, and
+the lack of testing culture amongst PHP programmers is really underlined by
+WordPress theme and plugin developers not shipping their code with tests,
+which could also be a reflection of the WordPress core having lots of tests,
+but having them <a href="http://codex.wordpress.org/Automated_Testing">available only when you clone the Subversion
+repository</a>.</p>
+
+<p>I&rsquo;ve also been thinking about how projects like <a href="https://github.com/cashmusic/DIY">CASH Music
+DIY</a> could really benefit from a combination
+of test-driven development (TDD) for the developers themselves and behaviour-
+driven development (BDD) to allow non-experts to write tests that can double
+as documentation using <a href="http://cukes.info/">Cucumber</a>. In fact, I started this
+whole search by looking for tips on how to use Cucumber and
+<a href="http://jnicklas.github.com/capybara/">Capybara</a> to do integration testing on
+PHP projects.</p>
+
+<p>Cucumber allows you to write natural-language feature tests, such as the
+following example taken from their Github repository:</p>
+
+<p><div>
+  <pre><code class='python'>Feature: Addition
+  In order to avoid silly mistakes
+  As a math idiot
+  I want to be told the sum of two numbers&lt;/p&gt;
+
+&lt;p&gt;  Scenario Outline: Add two numbers&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Given I have entered  into the calculator
+And I have entered  into the calculator
+When I press 
+Then the result should be  on the screen
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;  Examples:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;| input_1 | input_2 | button | output |
+| 20      | 30      | add    | 50     |
+| 2       | 5       | add    | 7      |
+| 0       | 40      | add    | 40     |
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;</code></pre>
+</div>
+</p>
+
+<p>On the unit testing and TDD front, Smashing Magazine has a brand new <a href="http://coding.smashingmagazine.com/2012/03/07/writing-unit-tests-for-%0Awordpress-plugins/">article
+on writing unit tests for WP
+plugins</a> that uses the JavaScript
+<a href="http://docs.jquery.com/QUnit">QUnit</a>. There is a simple <a href="http://www.lastcraft.com/first_test_tutorial.php">Lastcraft Unit
+Testing Tutorial</a> using
+<a href="http://www.simpletest.org/">SimpleTest</a>.</p>
+
+<p>Where BDD is concerned, Otaqui.com has a Gist for using <a href="http://otaqui.com/blog/1072/testing-remote-php-websites-with-capybara-%0Acucumber-mechanize-selenium-2-webdriver-and-saucelabs/">Cucumber, Capybara,
+Mechanize and Selenium to test remote PHP web
+sites</a>.</p>
+
+<p>Since I&rsquo;m just starting out with this, I&rsquo;d love to hear from some PHP testing
+experts and anyone else who can help me fill in the gaps.</p>
+
+<p>More resources I&rsquo;ve found since posting this:</p>
+
+<ul>
+<li>Eric Hogue&rsquo;s <a href="http://erichogue.ca/2011/06/php/test-driven-development-in-php/">post on TDD in PHP using SimpleTest and PHPUnit</a>.</li>
+<li>There&rsquo;s <a href="http://techportal.ibuildings.com/2011/08/03/outside-in-behaviour-driven-development-in-php-part-2/">a PHP port of RSpec called PHPSpec</a>, which is a really cool idea for doing outside-in BDD with PHP. It&rsquo;s not as pretty as Ruby because PHP isn&rsquo;t syntactically sweet enough to eliminate all the sigils that are optional in Ruby and the Domain-Specific Languages (DSL&rsquo;s) derived from it, plus other stuff*.</li>
+<li><p>Sebastian Bergmann and Stefan Priebsch have written <a href="http://qualityassuranceinphpprojects.com/">a book called <em>Real-World Solutions for Developing High-Quality PHP Frameworks and Applications</em></a> whose content is hopefully easier to digest than the English title. Their original German title is <em>Softwarequalität in PHP-Projekten</em> &lsquo;Software quality in PHP projects", and much <em>leichter zu verdauen</em>.</p></li>
+<li><p>Camel case for everything, really?</p></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+</feed>

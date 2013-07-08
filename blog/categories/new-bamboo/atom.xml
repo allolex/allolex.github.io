@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: new bamboo | Allolexicon]]></title>
+  <link href="http://allolex.net/blog/categories/new-bamboo/atom.xml" rel="self"/>
+  <link href="http://allolex.net/"/>
+  <updated>2013-07-08T22:35:37+01:00</updated>
+  <id>http://allolex.net/</id>
+  <author>
+    <name><![CDATA[Damon Davison]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[MMXII Hackathon video]]></title>
+    <link href="http://allolex.net/blog/2012/12/21/MMXII-Hackathon-video/"/>
+    <updated>2012-12-21T00:00:00+00:00</updated>
+    <id>http://allolex.net/blog/2012/12/21/MMXII-Hackathon-video</id>
+    <content type="html"><![CDATA[<iframe src="http://player.vimeo.com/video/59128361" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+
+<p>A video I made for the MMXII Hackathon we organised at <a href="http://new-%0Abamboo.co.uk">New Bamboo</a></p>
+]]></content>
+  </entry>
+  
+</feed>

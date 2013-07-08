@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: gem | Allolexicon]]></title>
+  <link href="http://allolex.net/blog/categories/gem/atom.xml" rel="self"/>
+  <link href="http://allolex.net/"/>
+  <updated>2013-07-08T22:35:37+01:00</updated>
+  <id>http://allolex.net/</id>
+  <author>
+    <name><![CDATA[Damon Davison]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Creating temporary directories in Ruby]]></title>
+    <link href="http://allolex.net/blog/2011/11/06/creating-temporary-directories-in-ruby/"/>
+    <updated>2011-11-06T00:00:00+00:00</updated>
+    <id>http://allolex.net/blog/2011/11/06/creating-temporary-directories-in-ruby</id>
+    <content type="html"><![CDATA[<p>How can I easily create temporary directories (and files) in Ruby that won&rsquo;t
+break the cross-platform compatibility of my script?</p>
+
+<p>It took a bit of digging to locate this information, so I&rsquo;ll post it here in
+the hope that the search engines will make it easier to find for the next
+person with this question.</p>
+
+<p>The answer is to use Dir.mktmpdir, which will magically appear in the Dir
+class if you require &lsquo;tmpdir&rsquo; in your script. Basically, <a href="http://www.ruby-%0Adoc.org/stdlib-1.8.6/libdoc/tmpdir/rdoc/Dir.html">tmpdir adds methods
+to the existing core Dir class</a>. It&rsquo;s apparently been part
+of Ruby since 1.8.6.</p>
+
+<p>I would recommend using this standard library rather than rolling your own
+because it lets your operating system worry about where to locate the
+temporary directory.</p>
+
+<p><img src="http://media.tumblr.com/tumblr_lwvqm6EkVK1r3t3xr.png" alt="" /></p>
+]]></content>
+  </entry>
+  
+</feed>

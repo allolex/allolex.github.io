@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: system administration | Allolexicon]]></title>
+  <link href="http://allolex.net/blog/categories/system-administration/atom.xml" rel="self"/>
+  <link href="http://allolex.net/"/>
+  <updated>2013-07-08T22:35:37+01:00</updated>
+  <id>http://allolex.net/</id>
+  <author>
+    <name><![CDATA[Damon Davison]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Restricting users when setting up a file transfer server]]></title>
+    <link href="http://allolex.net/blog/2012/01/06/file-transfer-server/"/>
+    <updated>2012-01-06T00:00:00+00:00</updated>
+    <id>http://allolex.net/blog/2012/01/06/file-transfer-server</id>
+    <content type="html"><![CDATA[<p><a href="http://www.howtoforge.com/restricting-users-to-sftp-plus-setting-up-%0Achrooted-ssh-sftp-debian-squeeze">Restricting users when setting up a file transfer
+server</a></p>
+
+<p>In my role of Production Manager at Southern, I keep running across rather,
+shall we say &ldquo;sub-optimal&rdquo; server configurations for delivering masters,
+artwork and other very large files to manufacturers.</p>
+
+<p>For example, one of the plants we have worked with has a single SFTP account
+for all their clients to upload their masters to. It&rsquo;s not an append-only
+solution like an OS X &ldquo;Drop Box&rdquo; where people can&rsquo;t see what was uploaded&mdash;you
+can potentially download other companies' masters. Another company we work
+with for digital retail doesn&rsquo;t let you read anything, but you can see all of
+their clients. There aren&rsquo;t many servers I think have been set up well.</p>
+
+<p>I&rsquo;ve decided that it&rsquo;s a basic system administration skill to be able to set
+up private, chrooted SFTP accounts for any number of users on a system, so I&rsquo;m
+linking to this HOWTO, which worked very well for me. Just create a user and
+home directory, add it to the &ldquo;transfer&rdquo; group, create a subdirectory under
+the home and chmod it so it&rsquo;s world readable/writable/whatever.</p>
+
+<p>A couple of important notes about the configuration:</p>
+
+<ul>
+<li>Make sure you put the &ldquo;Match&rdquo; stanza at the very end of the ssd_config file. I had a single directive after it, which sshd parsed as if it were part of the stanza. Not good.</li>
+<li>Even though the entire path has to belong to and be writable only by root, you can still use the %h variable to chroot individual user directories, and then put useful directories underneath the home, for instance &ldquo;pick_up&rdquo; and &ldquo;drop_off&rdquo; or similar.</li>
+</ul>
+
+
+<p>Here&rsquo;s the bottom (and relevant) part of my sshd_config:</p>
+
+<p><div>
+  <pre><code class='python'>&lt;/p&gt;
+
+&lt;h1&gt;Subsystem sftp /usr/lib/openssh/sftp-server&lt;/h1&gt;
+
+&lt;p&gt;Subsystem sftp internal-sftp&lt;br/&gt;
+UsePAM yes  # not relevant to this discussion, but see my point&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;        # above about Match being at the *bottom*
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Match Group transfer  &lt;br/&gt;
+  ChrootDirectory %h  &lt;br/&gt;
+  AllowTCPForwarding no   &lt;br/&gt;
+  X11Forwarding no&lt;br/&gt;
+  ForceCommand internal-sftp</code></pre>
+</div>
+</p>
+
+<p><a href="http://www.howtoforge.com/restricting-users-to-sftp-plus-%0Asetting-up-chrooted-ssh-sftp-debian-squeeze">Read the HOWTO</a>.</p>
+]]></content>
+  </entry>
+  
+</feed>

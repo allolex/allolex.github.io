@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: poster | Allolexicon]]></title>
+  <link href="http://allolex.net/blog/categories/poster/atom.xml" rel="self"/>
+  <link href="http://allolex.net/"/>
+  <updated>2013-07-08T22:35:37+01:00</updated>
+  <id>http://allolex.net/</id>
+  <author>
+    <name><![CDATA[Damon Davison]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Minimalist Economics Poster]]></title>
+    <link href="http://allolex.net/blog/2012/03/17/minimalist-econ-poster/"/>
+    <updated>2012-03-17T00:00:00+00:00</updated>
+    <id>http://allolex.net/blog/2012/03/17/minimalist-econ-poster</id>
+    <content type="html"><![CDATA[<p><img src="http://farm4.staticflickr.com/3739/9226050044_25f249d0e2_b.jpg" alt="Negative Equity" /></p>
+
+<p>Here’s my submission for a NPR Planet Money “Minimalist Econ
+Poster". It’s the concept of “negative equity".  It’s Copyright
+©2012 Damon Allen Davison. Permission is granted to NPR to use or re-publish this online as long as I’m credited.</p>
+]]></content>
+  </entry>
+  
+</feed>

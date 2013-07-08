@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: diy | Allolexicon]]></title>
+  <link href="http://allolex.net/blog/categories/diy/atom.xml" rel="self"/>
+  <link href="http://allolex.net/"/>
+  <updated>2013-07-08T22:35:37+01:00</updated>
+  <id>http://allolex.net/</id>
+  <author>
+    <name><![CDATA[Damon Davison]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Christmas Craftacular 2011]]></title>
+    <link href="http://allolex.net/blog/2011/12/28/christmas-craftacular/"/>
+    <updated>2011-12-28T00:00:00+00:00</updated>
+    <id>http://allolex.net/blog/2011/12/28/christmas-craftacular</id>
+    <content type="html"><![CDATA[<iframe src="http://player.vimeo.com/video/33550616" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+
+<p>The Bust Magazine Christmas Craftacular London 2011. It&rsquo;s a short film I made
+from footage I shot at the craft fair, all of it handheld. It&rsquo;s set to a track
+by Tartufi off of their album &ldquo;Nests of Waves and Wire&rdquo;.</p>
+]]></content>
+  </entry>
+  
+</feed>
