@@ -2,9 +2,9 @@
 layout: post
 title: Billie, Sleeping
 categories: 
-  - Billie
-  - Staffie
-  - photoblog
+- Billie
+- Staffie
+- photoblog
 ---
 ![Billie](/photos/billie-apparently.jpg)
 

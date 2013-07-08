@@ -2,10 +2,10 @@
 layout: post
 title: Ana of Lisbon
 categories: 
-  - photoblog
-  - lisbon
-  - portugal
-  - beauty
+- photoblog
+- lisbon
+- portugal
+- beauty
 ---
 ![Ana of Lisbon](http://farm9.staticflickr.com/8096/8420784501_77607efe66_h.jpg)
 
