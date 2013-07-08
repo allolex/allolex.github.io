@@ -4,7 +4,7 @@
   <title><![CDATA[Allolexicon]]></title>
   <link href="http://allolex.net/atom.xml" rel="self"/>
   <link href="http://allolex.net/"/>
-  <updated>2013-07-07T18:10:59+01:00</updated>
+  <updated>2013-07-08T08:24:21+01:00</updated>
   <id>http://allolex.net/</id>
   <author>
     <name><![CDATA[Damon Davison]]></name>
@@ -12,6 +12,82 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Rails Girls South Florida]]></title>
+    <link href="http://allolex.net/blog/2013/07/07/rails-girls-south-florida/"/>
+    <updated>2013-07-07T23:26:00+01:00</updated>
+    <id>http://allolex.net/blog/2013/07/07/rails-girls-south-florida</id>
+    <content type="html"><![CDATA[<p>I&rsquo;ve been so busy working on the nuts and bolts of organization that I&rsquo;ve
+hardly spared a breath to write about what I&rsquo;ve been up to. Exactly <em>what</em> I&rsquo;m
+organizing is <a href="http://railsgirls-sfl.org">Rails Girls South Florida</a>, which
+will take place in the Miami area in November. It will be awesome!</p>
+
+<p><a href="http://railsgirls-sfl.org"><img src="http://farm6.staticflickr.com/5506/9232564805_470bb53bbe_o.png" alt="Rails Girls SFL website" /></a></p>
+
+<h2>Rails Girls</h2>
+
+<p><a href="http://railsgirls.com">Rails Girls</a>, in case you don&rsquo;t already know, is a
+workshop designed to teach women how to program. The goal is to provide women
+with the chance to get excited about technology, especially software
+development, and give them the tools they need to build their own ideas.</p>
+
+<p>My own motivation for organizing Rails Girls is to fight the tendency the
+software development community has towards building a tall, narrow monoculture and
+increase the breadth and diversity of the community by bringing in people from
+the outside who are different in important ways.  The community, and therefore
+the profession, of software development becomes stronger when many different
+people of many different backgrounds take part in it. Gender diversity is
+one of the easiest, and most obvious areas in which we can improve our profession
+as a whole.</p>
+
+<h2>Workshop at RubyConf 2013 in Miami Beach</h2>
+
+<p>I had the idea to do a Rails Girls workshop just as soon as I saw that
+<a href="http://rubyconf.org">RubyConf</a> is taking place in Miami Beach this year. I&rsquo;ve
+been an organizer for Rails Girls London since the beginning (a story for
+another post), so I&rsquo;m pretty sure I know how to make one happen—it&rsquo;s really not
+that complicated, but it does require a fair amount of work and some good
+organization. I guess that&rsquo;s why they call it &ldquo;organizing&rdquo;.</p>
+
+<p>I then got on the Rails Girls worldwide team mailing list to see if anyone else
+was organizing anything in South Florida, and I checked the website to see if
+there had been anything at all in the area. The only thing I found was a
+request for a workshop in Fort Lauderdale by &ldquo;Cristina&rdquo;, who sadly forgot to
+include her contact information when she made the request. However, I also saw
+that newly-minted Ruby Hero <a href="http://twitter.com/intent/user?screen_name=hone02">Terence Lee</a>
+was going to be in South Florida and was interested in helping with the
+workshop. I also wrote to Terence to see if he was still interested in helping
+organize a workshop—he was.</p>
+
+<p>I then got in touch with Ruby Central, who organize RubyConf, and asked for
+their blessing. Abigail Phoenix was tremendously helpful and put me in contact
+with the confereence venue to see if we could find some space for the workshop.
+She also offered to help promote the workshop via RubyConf&rsquo;s social media.</p>
+
+<p>Our Rails Girls workshop is timed to happen just ahead of RubyConf 2013 so
+that we can take advantage of the pool of potential coaches that will flock to
+South Florida for the conference. I suspect attendence will be excellent, even
+for RubyConf&rsquo;s high standards, thanks in part to the attraction of South
+Florida&rsquo;s tropical climate.</p>
+
+<p>Last weekend, I got the web site up and running, but it wasn&rsquo;t pretty, so this
+weekend I installed atheme and modified it, making sure the typography is
+tolerable. There&rsquo;s still some work to go, but by and large, the site looks
+really good.</p>
+
+<p>I&rsquo;m using nice fonts from <a href="http://typography.com">typography.com</a>, which my New
+Bamboo colleague <a href="http://twitter.com/danbee">Dan Barber</a> turned me on to just
+last week. We&rsquo;re both typography lovers.</p>
+
+<p>When the time comes, we&rsquo;ll also get the
+<a href="http://github.com/railsgirlslondon/railsgirlslondon">Rails Girls application</a>
+up and running. It was written by the organization team of Rails Girls London,
+primarily <a href="http://twitter.com/intent/user?screen_name=despo">Despo Pentara</a>,
+and is a very useful tool for putting together events and taking applications.
+You can see it in action on the <a href="http://railsgirls.co.uk">Rails Girls London site</a>.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Rubyweb]]></title>
@@ -263,15 +339,6 @@ take photos of my meals and post them, too. Sometimes.</p>
     <link href="http://allolex.net/blog/2013/01/08/this-is-billie-she-turned-five-yesterday/"/>
     <updated>2013-01-08T00:00:00+00:00</updated>
     <id>http://allolex.net/blog/2013/01/08/this-is-billie-she-turned-five-yesterday</id>
-    <content type="html"><![CDATA[<p><a href=""></a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Byron, double cheeseburger]]></title>
-    <link href="http://allolex.net/blog/2013/01/07/byron-double-cheeseburger/"/>
-    <updated>2013-01-07T00:00:00+00:00</updated>
-    <id>http://allolex.net/blog/2013/01/07/byron-double-cheeseburger</id>
     <content type="html"><![CDATA[<p><a href=""></a></p>
 ]]></content>
   </entry>
