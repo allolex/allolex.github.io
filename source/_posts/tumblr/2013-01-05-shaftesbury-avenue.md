@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Shaftesbury Avenue
-tags:
+categories:
 - london
 ---
 []()

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: '"Awesome" would be appropriate here.'
-tags:
+categories:
 - danhiggs
 - tattoo
 ---

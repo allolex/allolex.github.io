@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Why Southern Records does what it does.
-tags:
+categories:
 - southern records
 - music
 - music industry

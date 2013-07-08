@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Condensation'
-tags:
+categories:
 - winter
 - tree
 - condensation

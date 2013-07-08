@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A review of the Samsung N220 netbook (UK edition, repost)
-tags:
+categories:
 - netbook
 - review
 - Samsung

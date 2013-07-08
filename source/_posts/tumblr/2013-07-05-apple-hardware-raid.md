@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Apple Hardware RAID
-tags:
+categories:
 - apple
 - RAID
 - technical support

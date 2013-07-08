@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The ethics of the web
-tags:
+categories:
 - media ethics
 - development
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Southern's Post Apocalypse Christmas Mix
-tags: 
+categories: 
 ---
 [Southerns Post Apocalypse Christmas Mix](http://www.mixcloud.com/southern
 /southerns-post-apocalypse-christmas-mix/)

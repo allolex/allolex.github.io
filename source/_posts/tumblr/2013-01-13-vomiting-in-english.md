@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Vomiting in English
-tags:
+categories:
 - linguistics
 - synonymy
 - word field

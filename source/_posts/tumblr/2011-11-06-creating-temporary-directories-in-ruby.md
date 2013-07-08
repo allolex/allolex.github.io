@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Creating temporary directories in Ruby
-tags:
+categories:
 - gem
 - ruby
 - Development

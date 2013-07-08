@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Pods CMS Framework for Wordpress
-tags:
+categories:
 - Development
 - PHP
 - WordPress

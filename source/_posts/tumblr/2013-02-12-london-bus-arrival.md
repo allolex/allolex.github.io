@@ -1,7 +1,7 @@
 ---
 layout: post
 title: London bus arrival
-tags:
+categories:
 - london
 - bus
 - night

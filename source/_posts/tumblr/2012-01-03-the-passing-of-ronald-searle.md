@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The passing of Ronald Searle
-tags:
+categories:
 - Ronald Searle
 - Matt Groening
 ---

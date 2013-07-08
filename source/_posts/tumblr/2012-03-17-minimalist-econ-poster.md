@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Minimalist Economics Poster
-tags:
+categories:
 - negative equity
 - poster
 - econposters

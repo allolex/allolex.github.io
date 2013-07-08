@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Fugazi Live Series: Los Angeles, CA USA 9/08/91'
-tags:
+categories:
 - Fugazi
 - Live
 - Dischord

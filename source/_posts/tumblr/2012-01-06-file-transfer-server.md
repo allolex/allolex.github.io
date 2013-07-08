@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Restricting users when setting up a file transfer server
-tags:
+categories:
 - OpenSSH
 - SFTP
 - System Administration

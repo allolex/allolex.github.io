@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Ana of Lisbon
-tags: 
+categories: 
   - photoblog
   - lisbon
   - portugal

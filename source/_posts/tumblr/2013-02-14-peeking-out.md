@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Peeking out
-tags:
+categories:
 - staffie
 - furry
 - blanket

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: '"Benedict-style" eggs.'
-tags:
+categories:
 - eggs
 - breakfast
 - shoreditch

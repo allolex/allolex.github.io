@@ -1,7 +1,7 @@
 ---
 layout: post
 title: PHP Testing Resources for Wordpress Plugins
-tags:
+categories:
 - development
 - wordpress
 - php

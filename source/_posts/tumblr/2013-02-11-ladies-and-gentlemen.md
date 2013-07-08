@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Gentlemen
-tags:
+categories:
 - London
 - door
 ---

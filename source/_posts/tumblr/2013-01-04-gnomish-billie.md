@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Gnomish Billie
-tags:
+categories:
 - staffie
 - pitbull
 - dog

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Covent Garden
-tags:
+categories:
 - london
 ---
 []()

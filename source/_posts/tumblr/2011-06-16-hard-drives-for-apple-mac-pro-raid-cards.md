@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Hard Drives for Apple Mac Pro RAID cards
-tags: 
+categories: 
 ---
 Having been stung quite recently when Apple Support ceased when they noticed I
 was using Seagate Barracuda XT drives, I have done a little research into

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Onion ring omelette with “American" cheese
-tags:
+categories:
 - breakfast
 - omelette
 - onion rings

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: In search of lost languages
-tags:
+categories:
 - linguistics
 - varieties
 ---

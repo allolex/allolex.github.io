@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Genius Bar
-tags:
+categories:
 - apple
 - genius bar
 - apple store

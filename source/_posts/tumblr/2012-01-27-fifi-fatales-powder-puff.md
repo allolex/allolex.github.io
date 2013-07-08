@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Fifi Fatale’s Powder Puff striptease, filmed by Damon Allen Davison
-tags:
+categories:
 - fifi fatale
 - burlesque
 - film

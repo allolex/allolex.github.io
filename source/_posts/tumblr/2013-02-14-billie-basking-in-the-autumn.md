@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Billie basking in the autumn
-tags:
+categories:
 - staffie
 - staffordshire bull terrier
 - sunlight

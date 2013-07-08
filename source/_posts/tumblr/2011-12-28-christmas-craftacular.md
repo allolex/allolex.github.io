@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Christmas Craftacular 2011'
-tags:
+categories:
   - video
   - short film
   - tartufi

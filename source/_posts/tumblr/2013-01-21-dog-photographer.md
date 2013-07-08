@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Billie, Sleeping
-tags: 
+categories: 
   - Billie
   - Staffie
   - photoblog

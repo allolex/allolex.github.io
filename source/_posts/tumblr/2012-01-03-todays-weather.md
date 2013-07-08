@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Today's Weather"
-tags:
+categories:
 - weather
 - London
 - video

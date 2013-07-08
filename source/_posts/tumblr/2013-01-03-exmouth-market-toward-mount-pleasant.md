@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Exmouth Market toward Mount Pleasant
-tags:
+categories:
 - london
 - routemaster
 - bus
