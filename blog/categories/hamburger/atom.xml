@@ -4,7 +4,7 @@
   <title><![CDATA[Category: hamburger | Allolexicon]]></title>
   <link href="http://allolex.net/blog/categories/hamburger/atom.xml" rel="self"/>
   <link href="http://allolex.net/"/>
-  <updated>2013-07-08T22:35:44+01:00</updated>
+  <updated>2013-07-08T23:27:48+01:00</updated>
   <id>http://allolex.net/</id>
   <author>
     <name><![CDATA[Damon Davison]]></name>
@@ -19,6 +19,15 @@
     <updated>2013-01-07T00:00:00+00:00</updated>
     <id>http://allolex.net/blog/2013/01/07/byron-double-cheeseburger</id>
     <content type="html"><![CDATA[<p><img src="http://farm4.staticflickr.com/3777/9223271213_6497cc69be_o.jpg" alt="double cheeseburger" /></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Byron]]></title>
+    <link href="http://allolex.net/blog/2013/01/05/byron/"/>
+    <updated>2013-01-05T00:00:00+00:00</updated>
+    <id>http://allolex.net/blog/2013/01/05/byron</id>
+    <content type="html"><![CDATA[<p><img src="http://farm6.staticflickr.com/5542/9223271325_5e4e032754_o.jpg" alt="Byron interior" /></p>
 ]]></content>
   </entry>
   

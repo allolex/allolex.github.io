@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: southern studios | Allolexicon]]></title>
+  <link href="http://allolex.net/blog/categories/southern-studios/atom.xml" rel="self"/>
+  <link href="http://allolex.net/"/>
+  <updated>2013-07-08T23:27:48+01:00</updated>
+  <id>http://allolex.net/</id>
+  <author>
+    <name><![CDATA[Damon Davison]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Southern Studios control room.]]></title>
+    <link href="http://allolex.net/blog/2012/03/17/southern-studios-control-room/"/>
+    <updated>2012-03-17T00:00:00+00:00</updated>
+    <id>http://allolex.net/blog/2012/03/17/southern-studios-control-room</id>
+    <content type="html"><![CDATA[<p><img src="http://farm4.staticflickr.com/3784/9223271789_5a16896ed0_o.png" alt="Raindirk console" /></p>
+]]></content>
+  </entry>
+  
+</feed>
