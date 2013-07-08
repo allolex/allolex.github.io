@@ -6,12 +6,12 @@ categories:
 - wordpress
 - php
 - testing
-- TDD
-- BDD
+- tdd
+- bdd
 - integration testing
 - unit testing
-- Cucumber
-- Capybara
+- cucumber
+- capybara
 ---
 Since I've been developing a WordPress theme and plugins for the new website
 at work, I've been working with PHP quite intensively for the last couple of

@@ -2,8 +2,8 @@
 layout: post
 title: The passing of Ronald Searle
 categories:
-- Ronald Searle
-- Matt Groening
+- ronald searle
+- matt groening
 ---
 My friend Laurent wrote to me to say that noted British illustrator Ronald
 Searle has passed away at home in Provence. Searle was the creator of

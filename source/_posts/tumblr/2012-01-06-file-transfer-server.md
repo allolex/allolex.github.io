@@ -2,12 +2,12 @@
 layout: post
 title: Restricting users when setting up a file transfer server
 categories:
-- OpenSSH
-- SFTP
-- System Administration
+- openssh
+- sftp
+- system administration
 - chroot jail
-- Unix
-- Linux
+- unix
+- linux
 ---
 [Restricting users when setting up a file transfer
 server](http://www.howtoforge.com/restricting-users-to-sftp-plus-setting-up-

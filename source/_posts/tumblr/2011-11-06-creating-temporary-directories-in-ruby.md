@@ -4,7 +4,7 @@ title: Creating temporary directories in Ruby
 categories:
 - gem
 - ruby
-- Development
+- development
 ---
 How can I easily create temporary directories (and files) in Ruby that won't
 break the cross-platform compatibility of my script?

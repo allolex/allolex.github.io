@@ -2,9 +2,9 @@
 layout: post
 title: 'Fugazi Live Series: Los Angeles, CA USA 9/08/91'
 categories:
-- Fugazi
-- Live
-- Dischord
+- fugazi
+- live
+- dischord
 ---
 ![Palladium gig flyer](http://assets.dischord.com/images.d/photo/image/588/FLS
 0395_flyer_1.jpg)

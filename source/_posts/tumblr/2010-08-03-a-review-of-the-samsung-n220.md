@@ -4,9 +4,9 @@ title: A review of the Samsung N220 netbook (UK edition, repost)
 categories:
 - netbook
 - review
-- Samsung
-- N220
-- Technology
+- samsung
+- n220
+- technology
 ---
 **Great for a Linux install (Ubuntu Netbook Edition 10.04)**
 

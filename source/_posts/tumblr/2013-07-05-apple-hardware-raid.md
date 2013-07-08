@@ -3,7 +3,7 @@ layout: post
 title: Apple Hardware RAID
 categories:
 - apple
-- RAID
+- raid
 - technical support
 - hardware
 - recovery
