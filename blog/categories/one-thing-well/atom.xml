@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: one thing well | Allolexicon]]></title>
+  <link href="http://allolex.net/blog/categories/one-thing-well/atom.xml" rel="self"/>
+  <link href="http://allolex.net/"/>
+  <updated>2013-07-09T21:22:25+01:00</updated>
+  <id>http://allolex.net/</id>
+  <author>
+    <name><![CDATA[Damon Davison]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[leave - A countdown timer for OS X]]></title>
+    <link href="http://allolex.net/blog/2013/01/03/leave/"/>
+    <updated>2013-01-03T00:00:00+00:00</updated>
+    <id>http://allolex.net/blog/2013/01/03/leave</id>
+    <content type="html"><![CDATA[<p><a href="https://github.com/oetzi/leave/">leave</a></p>
+
+<p><a href="http://onethingwell.org/post/39568951264/leave">onethingwell</a>:</p>
+
+<blockquote><blockquote><p>A micro, terminal based, countdown timer for OS X using Growl.
+Do</p></blockquote>
+
+<pre><code>leave in 10
+</code></pre>
+
+<p>and you’ll get a Growl notification ten minutes later.</p></blockquote>
+
+<p>Great idea</p>
+]]></content>
+  </entry>
+  
+</feed>
