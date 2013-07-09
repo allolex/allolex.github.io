@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Overheard: Old version of the internet
+title: 'Overheard: Old version of the internet'
 categories:
 - overheard
 ---
