@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Bavette with chips at Medcalf
-categories: 
+categories:
 - steak
 - restaurant
 - food
