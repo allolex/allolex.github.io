@@ -1,15 +1,17 @@
 ---
 layout: post
 title: Hard Drives for Apple Mac Pro RAID cards
-categories: 
+categories:
+- apple
+- raid
 ---
 Having been stung quite recently when Apple Support ceased when they noticed I
-was using Seagate Barracuda XT drives, I have done a little research into
-which hard drives are used (and supported) by Apple.
+was using Seagate Barracuda XT drives, I have done a little research into which
+hard drives are used (and supported) by Apple.
 
 For the record, Apple refuses to support any hardware that was not bought from
-them on their RAID cards. See [Apple's site for more
-details](http://support.apple.com/kb/HT1346#faq8).
+them on their RAID cards. See 
+[Apple's site for more details](http://support.apple.com/kb/HT1346#faq8).
 
 The hard drives Apple has shipped to me are:
 
