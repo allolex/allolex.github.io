@@ -4,7 +4,7 @@
   <title><![CDATA[Category: apple | Allolexicon]]></title>
   <link href="http://allolex.net/blog/categories/apple/atom.xml" rel="self"/>
   <link href="http://allolex.net/"/>
-  <updated>2013-07-09T19:38:37+01:00</updated>
+  <updated>2013-07-09T21:08:44+01:00</updated>
   <id>http://allolex.net/</id>
   <author>
     <name><![CDATA[Damon Davison]]></name>
@@ -59,6 +59,31 @@ seriously.</p>
     <updated>2013-01-06T00:00:00+00:00</updated>
     <id>http://allolex.net/blog/2013/01/06/genius-bar</id>
     <content type="html"><![CDATA[<p><img src="http://farm4.staticflickr.com/3798/9226049588_3730acd576_o.jpg" alt="Genius Bar" /></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Hard Drives for Apple Mac Pro RAID cards]]></title>
+    <link href="http://allolex.net/blog/2011/06/16/hard-drives-for-apple-mac-pro-raid-cards/"/>
+    <updated>2011-06-16T00:00:00+01:00</updated>
+    <id>http://allolex.net/blog/2011/06/16/hard-drives-for-apple-mac-pro-raid-cards</id>
+    <content type="html"><![CDATA[<p>Having been stung quite recently when Apple Support ceased when they noticed I
+was using Seagate Barracuda XT drives, I have done a little research into which
+hard drives are used (and supported) by Apple.</p>
+
+<p>For the record, Apple refuses to support any hardware that was not bought from
+them on their RAID cards. See 
+<a href="http://support.apple.com/kb/HT1346#faq8">Apple&rsquo;s site for more details</a>.</p>
+
+<p>The hard drives Apple has shipped to me are:</p>
+
+<p>The Western Digital Caviar Black 1.0TB SATA, WD1001FALS-41Y6A0</p>
+
+<p>This came shipped with a Mac Pro</p>
+
+<p>The Hitachi DeskStar 72K2000 2.0TB, HDS722020ALA330</p>
+
+<p>This we ordered this month from the Apple Store.</p>
 ]]></content>
   </entry>
   
