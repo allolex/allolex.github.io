@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: overheard | Allolexicon]]></title>
+  <link href="http://allolex.net/blog/categories/overheard/atom.xml" rel="self"/>
+  <link href="http://allolex.net/"/>
+  <updated>2013-07-09T21:12:17+01:00</updated>
+  <id>http://allolex.net/</id>
+  <author>
+    <name><![CDATA[Damon Davison]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Overheard: Old version of the internet]]></title>
+    <link href="http://allolex.net/blog/2013/01/31/old-version-internet/"/>
+    <updated>2013-01-31T00:00:00+00:00</updated>
+    <id>http://allolex.net/blog/2013/01/31/old-version-internet</id>
+    <content type="html"><![CDATA[<p>OH: &ldquo;they&rsquo;ve got an old version of the Internet on&rdquo;</p>
+]]></content>
+  </entry>
+  
+</feed>
