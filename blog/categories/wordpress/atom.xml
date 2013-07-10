@@ -4,7 +4,7 @@
   <title><![CDATA[Category: wordpress | Allolexicon]]></title>
   <link href="http://allolex.net/blog/categories/wordpress/atom.xml" rel="self"/>
   <link href="http://allolex.net/"/>
-  <updated>2013-07-10T08:16:51+01:00</updated>
+  <updated>2013-07-10T14:11:23+01:00</updated>
   <id>http://allolex.net/</id>
   <author>
     <name><![CDATA[Damon Davison]]></name>
@@ -39,29 +39,31 @@ PHP projects.</p>
 <p>Cucumber allows you to write natural-language feature tests, such as the
 following example taken from their Github repository:</p>
 
-<p>{% highlight python %}
-Feature: Addition
+<p><div>
+  <pre><code class='python'>Feature: Addition
   In order to avoid silly mistakes
   As a math idiot
-  I want to be told the sum of two numbers</p>
+  I want to be told the sum of two numbers&lt;/p&gt;
 
-<p>  Scenario Outline: Add two numbers</p>
+&lt;p&gt;  Scenario Outline: Add two numbers&lt;/p&gt;
 
-<pre><code>Given I have entered  into the calculator
+&lt;pre&gt;&lt;code&gt;Given I have entered  into the calculator
 And I have entered  into the calculator
 When I press 
 Then the result should be  on the screen
-</code></pre>
+&lt;/code&gt;&lt;/pre&gt;
 
-<p>  Examples:</p>
+&lt;p&gt;  Examples:&lt;/p&gt;
 
-<pre><code>| input_1 | input_2 | button | output |
+&lt;pre&gt;&lt;code&gt;| input_1 | input_2 | button | output |
 | 20      | 30      | add    | 50     |
 | 2       | 5       | add    | 7      |
 | 0       | 40      | add    | 40     |
-</code></pre>
+&lt;/code&gt;&lt;/pre&gt;
 
-<p>{% endhighlight %}</p>
+&lt;p&gt;</code></pre>
+</div>
+</p>
 
 <p>On the unit testing and TDD front, Smashing Magazine has a brand new <a href="http://coding.smashingmagazine.com/2012/03/07/writing-unit-tests-for-%0Awordpress-plugins/">article
 on writing unit tests for WP

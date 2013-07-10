@@ -4,7 +4,7 @@
   <title><![CDATA[Category: sftp | Allolexicon]]></title>
   <link href="http://allolex.net/blog/categories/sftp/atom.xml" rel="self"/>
   <link href="http://allolex.net/"/>
-  <updated>2013-07-10T08:16:51+01:00</updated>
+  <updated>2013-07-10T14:11:23+01:00</updated>
   <id>http://allolex.net/</id>
   <author>
     <name><![CDATA[Damon Davison]]></name>
@@ -48,22 +48,24 @@ the home and chmod it so it&rsquo;s world readable/writable/whatever.</p>
 
 <p>Here&rsquo;s the bottom (and relevant) part of my sshd_config:</p>
 
-<p>{% highlight python %}</p>
+<p><div>
+  <pre><code class='python'>&lt;/p&gt;
 
-<h1>Subsystem sftp /usr/lib/openssh/sftp-server</h1>
+&lt;h1&gt;Subsystem sftp /usr/lib/openssh/sftp-server&lt;/h1&gt;
 
-<p>Subsystem sftp internal-sftp<br/>
-UsePAM yes  # not relevant to this discussion, but see my point</p>
+&lt;p&gt;Subsystem sftp internal-sftp&lt;br/&gt;
+UsePAM yes  # not relevant to this discussion, but see my point&lt;/p&gt;
 
-<pre><code>        # above about Match being at the *bottom*
-</code></pre>
+&lt;pre&gt;&lt;code&gt;        # above about Match being at the *bottom*
+&lt;/code&gt;&lt;/pre&gt;
 
-<p>Match Group transfer  <br/>
-  ChrootDirectory %h  <br/>
-  AllowTCPForwarding no   <br/>
-  X11Forwarding no<br/>
-  ForceCommand internal-sftp
-{% endhighlight %}</p>
+&lt;p&gt;Match Group transfer  &lt;br/&gt;
+  ChrootDirectory %h  &lt;br/&gt;
+  AllowTCPForwarding no   &lt;br/&gt;
+  X11Forwarding no&lt;br/&gt;
+  ForceCommand internal-sftp</code></pre>
+</div>
+</p>
 
 <p><a href="http://www.howtoforge.com/restricting-users-to-sftp-plus-%0Asetting-up-chrooted-ssh-sftp-debian-squeeze">Read the HOWTO</a>.</p>
 ]]></content>
