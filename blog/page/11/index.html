@@ -9,8 +9,8 @@
   <meta name="author" content="Damon Davison">
 
   
-  <meta name="description" content="Having been stung quite recently when Apple Support ceased when they noticed I
-was using Seagate Barracuda XT drives, I have done a little research &hellip;">
+  <meta name="description" content="How can I easily create temporary directories (and files) in Ruby that won&rsquo;t
+break the cross-platform compatibility of my script? It took a bit &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -78,6 +78,58 @@ was using Seagate Barracuda XT drives, I have done a little research &hellip;">
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2011/11/06/creating-temporary-directories-in-ruby/">Creating Temporary Directories in Ruby</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-11-06T00:00:00+00:00" pubdate data-updated="true">Nov 6<span>th</span>, 2011</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>How can I easily create temporary directories (and files) in Ruby that won&rsquo;t
+break the cross-platform compatibility of my script?</p>
+
+<p>It took a bit of digging to locate this information, so I&rsquo;ll post it here in
+the hope that the search engines will make it easier to find for the next
+person with this question.</p>
+
+<p>The answer is to use Dir.mktmpdir, which will magically appear in the Dir
+class if you require &lsquo;tmpdir&rsquo; in your script. Basically, <a href="http://www.ruby-%0Adoc.org/stdlib-1.8.6/libdoc/tmpdir/rdoc/Dir.html">tmpdir adds methods
+to the existing core Dir class</a>. It&rsquo;s apparently been part
+of Ruby since 1.8.6.</p>
+
+<p>I would recommend using this standard library rather than rolling your own
+because it lets your operating system worry about where to locate the
+temporary directory.</p>
+
+<p><img src="http://media.tumblr.com/tumblr_lwvqm6EkVK1r3t3xr.png" alt="" /></p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -316,6 +368,10 @@ accessories. The mobile access is incredibly useful.</p>
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2013/07/11/new-arrivals-on-and-in-exmouth-market/">New Arrivals on and in Exmouth Market</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2013/07/09/london-summertime/">London Summertime</a>
       </li>
     
@@ -337,10 +393,6 @@ accessories. The mobile access is incredibly useful.</p>
     
       <li class="post">
         <a href="/blog/2013/02/15/this-is-how-we-sleep-now-apparently/">This Is How We Sleep Now, Apparently.</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2013/02/14/peeking-out/">Peeking Out</a>
       </li>
     
   </ul>
