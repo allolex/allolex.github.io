@@ -4,7 +4,7 @@
   <title><![CDATA[Allolexicon]]></title>
   <link href="http://allolex.net/atom.xml" rel="self"/>
   <link href="http://allolex.net/"/>
-  <updated>2013-07-12T14:26:09+01:00</updated>
+  <updated>2013-07-12T20:52:40+01:00</updated>
   <id>http://allolex.net/</id>
   <author>
     <name><![CDATA[Damon Davison]]></name>
@@ -12,6 +12,34 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Typography first]]></title>
+    <link href="http://allolex.net/blog/2013/07/13/typography-first/"/>
+    <updated>2013-07-13T08:30:00+01:00</updated>
+    <id>http://allolex.net/blog/2013/07/13/typography-first</id>
+    <content type="html"><![CDATA[<p>When it comes to typography, I&rsquo;m by no means an expert, but I <em>do</em> know what I
+like. All design elements being equal, I think typography is more equal.
+Typography can make or break a design, so I chose to start with typography and
+not make very many changes at all to the default Octopress template Allexicon
+uses.</p>
+
+<p>Convenience is important to me. I&rsquo;m very busy and I don&rsquo;t have a lot of time to
+spend working on getting things right. I&rsquo;d rather spend the time writing, or on
+one of my other projects that has nothing to do with my blog.  Convenience is
+the reason I went with a cloud-based solution.</p>
+
+<p>I also want my blog to look distinctive. Less often used fonts have the
+advantage in this respect; I don&rsquo;t want to use the same fonts as everyone else.
+This is the primary reason I completely discounted Google Fonts and gave Adobe
+Typekit a miss.</p>
+
+<p>Although I really like the &ldquo;small is beautiful&rdquo; nature of Hoefler &amp;
+Frere-Jones&rsquo;s <a href="http://www.typography.com/cloud/welcome/">cloud.typography</a>
+platform and convenience and distinctiveness are important to me, the beautiful
+fonts (and great font features, e.g. swashes) really sold me on it.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Three Talks on Testing (in Ruby)]]></title>
@@ -383,15 +411,6 @@ take photos of my meals and post them, too. Sometimes.</p>
 <p>So does vomit have a special meaning for speakers of English?</p>
 
 <p>Just putting a lid on the whole notion of <a href="http://en.wikipedia.org/wiki/Linguistic_relativity">linguistic relativity</a>.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Ozone, Shoreditch]]></title>
-    <link href="http://allolex.net/blog/2013/01/12/ozone/"/>
-    <updated>2013-01-12T00:00:00+00:00</updated>
-    <id>http://allolex.net/blog/2013/01/12/ozone</id>
-    <content type="html"><![CDATA[<p><img src="http://farm4.staticflickr.com/3733/9223270867_db8e89b9ab_o.jpg" alt="Ozone, Shoreditch" /></p>
 ]]></content>
   </entry>
   
