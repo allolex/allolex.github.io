@@ -4,7 +4,7 @@
   <title><![CDATA[Category: testing | Allolexicon]]></title>
   <link href="http://allolex.net/blog/categories/testing/atom.xml" rel="self"/>
   <link href="http://allolex.net/"/>
-  <updated>2013-07-11T08:23:23+01:00</updated>
+  <updated>2013-07-12T11:09:00+01:00</updated>
   <id>http://allolex.net/</id>
   <author>
     <name><![CDATA[Damon Davison]]></name>
@@ -12,6 +12,27 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Three Talks on Testing (in Ruby)]]></title>
+    <link href="http://allolex.net/blog/2013/07/12/three-talks-on-testing/"/>
+    <updated>2013-07-12T11:02:00+01:00</updated>
+    <id>http://allolex.net/blog/2013/07/12/three-talks-on-testing</id>
+    <content type="html"><![CDATA[<p>Here are three talks on testing in Ruby I think all developers should see. I&rsquo;ve
+presented them in the order in which I think they should be watched.</p>
+
+<p>Sandi&rsquo;s and Katrina&rsquo;s talks in particular focus on what testing gives you and
+what you should be testing. Andy&rsquo;s talk is a live coding session in which he
+TDD&rsquo;s a library.</p>
+
+<ol>
+<li>Sandi Metz: <a href="http://www.youtube.com/watch?v=qPfQM4w4I04">&ldquo;The Magic Tricks of Testing&rdquo;</a> (Ancient City Ruby 2013)</li>
+<li>Katrina Owen: <a href="https://vimeo.com/68730418">&ldquo;467 tests, 0 failures, 0 confidence&rdquo;</a> (Railsberry 2013)</li>
+<li>Andy Lindeman: <a href="http://www.youtube.com/watch?v=2aYdtS7FZJA">&ldquo;Building a mocking library&rdquo;</a> (Ancient City Ruby 2013)</li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[PHP Testing Resources for Wordpress Plugins]]></title>
@@ -39,29 +60,31 @@ PHP projects.</p>
 <p>Cucumber allows you to write natural-language feature tests, such as the
 following example taken from their Github repository:</p>
 
-<p>{% highlight python %}
-Feature: Addition
+<p><div>
+  <pre><code class='python'>Feature: Addition
   In order to avoid silly mistakes
   As a math idiot
-  I want to be told the sum of two numbers</p>
+  I want to be told the sum of two numbers&lt;/p&gt;
 
-<p>  Scenario Outline: Add two numbers</p>
+&lt;p&gt;  Scenario Outline: Add two numbers&lt;/p&gt;
 
-<pre><code>Given I have entered  into the calculator
+&lt;pre&gt;&lt;code&gt;Given I have entered  into the calculator
 And I have entered  into the calculator
 When I press 
 Then the result should be  on the screen
-</code></pre>
+&lt;/code&gt;&lt;/pre&gt;
 
-<p>  Examples:</p>
+&lt;p&gt;  Examples:&lt;/p&gt;
 
-<pre><code>| input_1 | input_2 | button | output |
+&lt;pre&gt;&lt;code&gt;| input_1 | input_2 | button | output |
 | 20      | 30      | add    | 50     |
 | 2       | 5       | add    | 7      |
 | 0       | 40      | add    | 40     |
-</code></pre>
+&lt;/code&gt;&lt;/pre&gt;
 
-<p>{% endhighlight %}</p>
+&lt;p&gt;</code></pre>
+</div>
+</p>
 
 <p>On the unit testing and TDD front, Smashing Magazine has a brand new <a href="http://coding.smashingmagazine.com/2012/03/07/writing-unit-tests-for-%0Awordpress-plugins/">article
 on writing unit tests for WP

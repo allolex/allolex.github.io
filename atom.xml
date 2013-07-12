@@ -4,7 +4,7 @@
   <title><![CDATA[Allolexicon]]></title>
   <link href="http://allolex.net/atom.xml" rel="self"/>
   <link href="http://allolex.net/"/>
-  <updated>2013-07-11T08:22:55+01:00</updated>
+  <updated>2013-07-12T11:09:00+01:00</updated>
   <id>http://allolex.net/</id>
   <author>
     <name><![CDATA[Damon Davison]]></name>
@@ -12,6 +12,27 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Three Talks on Testing (in Ruby)]]></title>
+    <link href="http://allolex.net/blog/2013/07/12/three-talks-on-testing/"/>
+    <updated>2013-07-12T11:02:00+01:00</updated>
+    <id>http://allolex.net/blog/2013/07/12/three-talks-on-testing</id>
+    <content type="html"><![CDATA[<p>Here are three talks on testing in Ruby I think all developers should see. I&rsquo;ve
+presented them in the order in which I think they should be watched.</p>
+
+<p>Sandi&rsquo;s and Katrina&rsquo;s talks in particular focus on what testing gives you and
+what you should be testing. Andy&rsquo;s talk is a live coding session in which he
+TDD&rsquo;s a library.</p>
+
+<ol>
+<li>Sandi Metz: <a href="http://www.youtube.com/watch?v=qPfQM4w4I04">&ldquo;The Magic Tricks of Testing&rdquo;</a> (Ancient City Ruby 2013)</li>
+<li>Katrina Owen: <a href="https://vimeo.com/68730418">&ldquo;467 tests, 0 failures, 0 confidence&rdquo;</a> (Railsberry 2013)</li>
+<li>Andy Lindeman: <a href="http://www.youtube.com/watch?v=2aYdtS7FZJA">&ldquo;Building a mocking library&rdquo;</a> (Ancient City Ruby 2013)</li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[New arrivals on and in Exmouth Market]]></title>
@@ -371,15 +392,6 @@ take photos of my meals and post them, too. Sometimes.</p>
     <updated>2013-01-12T00:00:00+00:00</updated>
     <id>http://allolex.net/blog/2013/01/12/ozone</id>
     <content type="html"><![CDATA[<p><img src="http://farm4.staticflickr.com/3733/9223270867_db8e89b9ab_o.jpg" alt="Ozone, Shoreditch" /></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA["Benedict-style" eggs.]]></title>
-    <link href="http://allolex.net/blog/2013/01/12/benedict-style-eggs/"/>
-    <updated>2013-01-12T00:00:00+00:00</updated>
-    <id>http://allolex.net/blog/2013/01/12/benedict-style-eggs</id>
-    <content type="html"><![CDATA[<p><img src="http://farm4.staticflickr.com/3680/9226049172_2bb0f3690c_o.jpg" alt="Ozone's &quot;Benedict-style&quot; eggs" /></p>
 ]]></content>
   </entry>
   
