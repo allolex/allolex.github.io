@@ -9,8 +9,8 @@
   <meta name="author" content="Damon Davison">
 
   
-  <meta name="description" content="Here are three talks on testing in Ruby I think all developers should see. I&rsquo;ve
-presented them in the order in which I think they should be &hellip;">
+  <meta name="description" content="I&rsquo;ve been sending out a fair few messages to potential sponsors, applicants,
+volunteers and coaches for Rails Girls South Florida. To make this &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -78,6 +78,102 @@ presented them in the order in which I think they should be &hellip;">
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2013/07/21/simple-includes-using-markdown/">Simple Includes Using Markdown</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-07-21T11:59:00+01:00" pubdate data-updated="true">Jul 21<span>st</span>, 2013</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>I&rsquo;ve been sending out a fair few messages to potential sponsors, applicants,
+volunteers and coaches for <a href="http://railsgirls-sfl.org">Rails Girls South Florida</a>. To make this job
+easier, I edit all my documents using <a href="http://daringfireball.net/projects/markdown/">Markdown syntax</a>.</p>
+
+<p>I find myself repeating a lot of the same information, do in order to DRY up my
+Markdown files, I create them from several different components by using
+template folders. I do it this way because Markdown has no native way of
+including sub-documents into a main document.</p>
+
+<ol>
+<li>Each template folder contains symlinks to each section Markdown file.</li>
+<li>Each symlink is named so that it appears in the right order inside the final document.</li>
+</ol>
+
+
+<p>Here&rsquo;s what the folder structure looks like for my Rails Girls documents:</p>
+
+<pre><code>.
+  applicant
+    00-intro.md -&gt; ../docs/intro.md
+    01-apply.md -&gt; ../docs/applying.md
+    99-footer.md -&gt; ../docs/footer.md
+    applying.html
+    applying.markdown
+  coach
+    00-intro.md -&gt; ../docs/intro.md
+    01-coach.md -&gt; ../docs/coaching-volunteering.md
+    99-footer.md -&gt; ../docs/footer.md
+    coaching.html
+    coaching.markdown
+  docs
+    applying.md
+    coaching-volunteering.md
+    footer.md
+    intro.md
+    sponsor.md
+  sponsor
+    00-intro.md -&gt; ../docs/intro.md
+    02-sponsor.md -&gt; ../docs/sponsor.md
+    03-coaching.md -&gt; ../docs/coaching-volunteering.md
+    99-footer.md -&gt; ../docs/footer.md
+    sponsor.html
+    sponsor.markdown
+</code></pre>
+
+<p>It&rsquo;s very easy to link the right content inside the template folder. For
+example, when I created the <code>coach</code> template folder, I typed in the following
+commands:</p>
+
+<pre><code>mkdir coach                                         # Make a template folder and
+cd coach/                                           # make it your current working directory
+ln -s ../docs/intro.md 00-intro.md                  # Symlink the intro/header
+ln -s ../docs/coaching-volunteering.md 01-coach.md  # Symlink the content section(s)
+ln -s ../docs/footer.md 99-footer.md                # Symlink the footer/signature
+cat *.md                                            # To see how it looks on-screen
+cat *.md &gt; coaching.markdown                        # Make a complete markdown document
+cat *.md | markdown &gt; coaching.html                 # Generate HTML
+</code></pre>
+
+<p>I use <a href="http://markedapp.com/">Marked.app</a> to view Markdown files, so having a complete file is
+convenient for me.</p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -279,59 +375,6 @@ will take place in the Miami area in November. It will be awesome!</p>
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2013/07/06/rubyweb/">Rubyweb</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-07-06T11:49:00+01:00" pubdate data-updated="true">Jul 6<span>th</span>, 2013</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p><a href="https://github.com/allolex/rubyweb"><strong>Rubyweb</strong></a> is a small program I wrote to
-address a small problem, but one that keeps popping up. Apparently, the
-&ldquo;normal&rdquo; way of running a simple web server in Ruby is too difficult, so people
-have been using Python&rsquo;s <em>SimpleHTTPServer</em> instead. Now I&rsquo;m totally cool with
-using Python or any other language&rsquo;s tools to do that, but the main argument
-seems to be the number of characters you have to type in order to launch the
-web server.</p>
-
-<p><strong>Rubyweb</strong> is very simple to install and use:</p>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>gem install rubyweb
-</span><span class='line'>rubyweb</span></code></pre></td></tr></table></div></figure>
-
-
-<p>Have a look at <a href="https://github.com/allolex/rubyweb"><strong>Rubyweb</strong>&rsquo;s GitHub repo</a> and
-let me know what you think.</p>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/2/">&larr; Older</a>
@@ -345,6 +388,10 @@ let me know what you think.</p>
     <section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2013/07/21/simple-includes-using-markdown/">Simple Includes Using Markdown</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2013/07/12/three-talks-on-testing/">Three Talks on Testing (in Ruby)</a>
@@ -368,10 +415,6 @@ let me know what you think.</p>
     
       <li class="post">
         <a href="/blog/2013/07/06/migrated-blog/">Migrated Blog</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2013/07/05/apple-hardware-raid/">Apple Hardware RAID</a>
       </li>
     
   </ul>

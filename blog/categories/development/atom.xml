@@ -4,7 +4,7 @@
   <title><![CDATA[Category: development | Allolexicon]]></title>
   <link href="http://allolex.net/blog/categories/development/atom.xml" rel="self"/>
   <link href="http://allolex.net/"/>
-  <updated>2013-07-12T21:55:59+01:00</updated>
+  <updated>2013-07-21T12:49:14+01:00</updated>
   <id>http://allolex.net/</id>
   <author>
     <name><![CDATA[Damon Davison]]></name>
@@ -12,6 +12,75 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Simple includes using Markdown]]></title>
+    <link href="http://allolex.net/blog/2013/07/21/simple-includes-using-markdown/"/>
+    <updated>2013-07-21T11:59:00+01:00</updated>
+    <id>http://allolex.net/blog/2013/07/21/simple-includes-using-markdown</id>
+    <content type="html"><![CDATA[<p>I&rsquo;ve been sending out a fair few messages to potential sponsors, applicants,
+volunteers and coaches for <a href="http://railsgirls-sfl.org">Rails Girls South Florida</a>. To make this job
+easier, I edit all my documents using <a href="http://daringfireball.net/projects/markdown/">Markdown syntax</a>.</p>
+
+<p>I find myself repeating a lot of the same information, do in order to DRY up my
+Markdown files, I create them from several different components by using
+template folders. I do it this way because Markdown has no native way of
+including sub-documents into a main document.</p>
+
+<ol>
+<li>Each template folder contains symlinks to each section Markdown file.</li>
+<li>Each symlink is named so that it appears in the right order inside the final document.</li>
+</ol>
+
+
+<p>Here&rsquo;s what the folder structure looks like for my Rails Girls documents:</p>
+
+<pre><code>.
+  applicant
+    00-intro.md -&gt; ../docs/intro.md
+    01-apply.md -&gt; ../docs/applying.md
+    99-footer.md -&gt; ../docs/footer.md
+    applying.html
+    applying.markdown
+  coach
+    00-intro.md -&gt; ../docs/intro.md
+    01-coach.md -&gt; ../docs/coaching-volunteering.md
+    99-footer.md -&gt; ../docs/footer.md
+    coaching.html
+    coaching.markdown
+  docs
+    applying.md
+    coaching-volunteering.md
+    footer.md
+    intro.md
+    sponsor.md
+  sponsor
+    00-intro.md -&gt; ../docs/intro.md
+    02-sponsor.md -&gt; ../docs/sponsor.md
+    03-coaching.md -&gt; ../docs/coaching-volunteering.md
+    99-footer.md -&gt; ../docs/footer.md
+    sponsor.html
+    sponsor.markdown
+</code></pre>
+
+<p>It&rsquo;s very easy to link the right content inside the template folder. For
+example, when I created the <code>coach</code> template folder, I typed in the following
+commands:</p>
+
+<pre><code>mkdir coach                                         # Make a template folder and
+cd coach/                                           # make it your current working directory
+ln -s ../docs/intro.md 00-intro.md                  # Symlink the intro/header
+ln -s ../docs/coaching-volunteering.md 01-coach.md  # Symlink the content section(s)
+ln -s ../docs/footer.md 99-footer.md                # Symlink the footer/signature
+cat *.md                                            # To see how it looks on-screen
+cat *.md &gt; coaching.markdown                        # Make a complete markdown document
+cat *.md | markdown &gt; coaching.html                 # Generate HTML
+</code></pre>
+
+<p>I use <a href="http://markedapp.com/">Marked.app</a> to view Markdown files, so having a complete file is
+convenient for me.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Three Talks on Testing (in Ruby)]]></title>
@@ -145,36 +214,6 @@ always there for the ages.</p></blockquote>
 
 <p>This is a variation of the &ldquo;release early, release often&rdquo; directive in
 software development, isn&rsquo;t it?</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[The Pods CMS Framework for Wordpress]]></title>
-    <link href="http://allolex.net/blog/2011/12/28/the-pods-cms-framework-for-wordpress/"/>
-    <updated>2011-12-28T00:00:00+00:00</updated>
-    <id>http://allolex.net/blog/2011/12/28/the-pods-cms-framework-for-wordpress</id>
-    <content type="html"><![CDATA[<p><a href="http://podscms.org/">The Pods CMS Framework for Wordpress</a></p>
-
-<p>We decided on WordPress about a year ago. We&rsquo;d had some disastrous development
-done on Drupal prior to that&mdash;a completely failed undertaking which took a
-good chunk out of our budget for further development, and after we finished
-picking up the rubble, it became clear to us that working with our existing
-CMS was the way to go. No offense to Drupal, of course.</p>
-
-<p>WordPress used to be just WordPress, a pretty good blog written in PHP like
-Drupal, which isn&rsquo;t exactly my favourite language on Earth. Over the last few
-years, some developers have really taken advantage of WP&rsquo;s plugin and modular
-architecture and have created some plugins that completely transform your WP
-installation. The Pods CMS framework is one such plugin.</p>
-
-<p>There&rsquo;s not much Pods does that you can&rsquo;t do with custom content types and
-custom coding. Okay, there&rsquo;s not anything it can do that can&rsquo;t be done with
-custom coding, but what Pods does is provide a framework upon which you can
-build content types for your site, the &ldquo;pods&rdquo;. As someone who has done it the
-other way, I can say Pods is a much easier path to take and you get a lot of
-stuff &ldquo;for free&rdquo; along with it, including a relatively useful MVC-esque
-structure to put everything into and access to code &ldquo;helpers&rdquo; that allow you
-do implement special features, for example resizing images on upload.</p>
 ]]></content>
   </entry>
   

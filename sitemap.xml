@@ -216,11 +216,15 @@
     </url>
     <url>
         <loc>http://allolex.net/blog/2013/07/12/three-talks-on-testing/</loc>
-        <lastmod>2013-07-12T20:50:32+01:00</lastmod>
+        <lastmod>2013-07-14T09:33:15+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://allolex.net/blog/2013/07/21/simple-includes-using-markdown/</loc>
+        <lastmod>2013-07-21T12:46:47+01:00</lastmod>
     </url>
     <url>
         <loc>http://allolex.net/blog/archives/</loc>
-        <lastmod>2013-07-12T20:50:32+01:00</lastmod>
+        <lastmod>2013-07-21T12:46:47+01:00</lastmod>
     </url>
     <url>
         <loc>http://allolex.net/contact/</loc>
@@ -228,7 +232,7 @@
     </url>
     <url>
         <loc>http://allolex.net/</loc>
-        <lastmod>2013-07-12T20:50:32+01:00</lastmod>
+        <lastmod>2013-07-21T12:46:47+01:00</lastmod>
     </url>
     <url>
         <loc>http://allolex.net/robots.txt</loc>
