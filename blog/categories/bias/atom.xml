@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: bias | Allolexicon]]></title>
+  <link href="http://allolex.net/blog/categories/bias/atom.xml" rel="self"/>
+  <link href="http://allolex.net/"/>
+  <updated>2013-08-11T09:36:29+01:00</updated>
+  <id>http://allolex.net/</id>
+  <author>
+    <name><![CDATA[Damon Davison]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Avoiding bias in software job ads]]></title>
+    <link href="http://allolex.net/blog/2013/08/11/avoiding-bias/"/>
+    <updated>2013-08-11T09:23:00+01:00</updated>
+    <id>http://allolex.net/blog/2013/08/11/avoiding-bias</id>
+    <content type="html"><![CDATA[<p>Many technology businesses are trying to do the right thing by hiring for
+diversity. I’ve seen a few examples of job ads from companies who clearly have
+so little experience writing job ads, or spend so little time thinking about
+what the ad is saying, that the ad end up being offensive to its target
+readership.</p>
+
+<p>If you want to attract the right people to your business, you have to be the
+kind of business that those people would be proud to work for. Attention to
+detail in a job ad, especially in software development, is at least as
+important as attention to detail in a CV/resume. It’s important to pay
+attention to gender, sexual orientation, and culture in your job description.</p>
+
+<!-- more -->
+
+
+<h3>Fill your ad full of detail, but keep it neutral.</h3>
+
+<p>You want to have an ad that gives all the important details about your company
+and about the available position. To keep this brief, I am going to assume that
+you have spent loads of time making sure the work environment is someplace
+people want to be. You will want to tell potential hires about the things that
+make your company special. Spend some time talking about culture.</p>
+
+<p>Also take the time to write about the kind of person you see in the position
+you’d like to fill. What sort of personality would best fit your company? What
+kind of approach to problem-solving would be the best fit for your team? If
+your team spend time together outside of work, talk about it. Talk about your
+product or your clients. The important thing is to provide plenty of detail
+about who you are, where you would like to be, and who you think could help you
+get there. You may overlook some details, but if you describe your needs
+accurately, the right person may just figure out what is missing and fill in
+the gaps.</p>
+
+<p>If you are already using a particular software stack, then certainly mention
+it, but no one wants to read a list of technologies packaged as a job ad. If
+your goal is to solve a problem, then describe your problem and let the experts
+figure out whether they are a good match.</p>
+
+<p>The same rule also applies to other aspects of the person you want to hire.
+Keep your ad neutral by avoiding bias and the best applicants will select
+themselves.</p>
+
+<h3>Avoid gender bias.</h3>
+
+<p>Specifying gender in your job ad is tantamount to specifying race, age, or
+religion in your ad, and should be avoided at all costs. There is practically
+no way you can write a gender-specific job ad without stereotyping people, so
+this practice is best avoided.</p>
+
+<p>Don’t assume things about your target readership. For example, talking about
+someone’s girlfriend, boyfriend, husband or wife is a big no-no unless you
+include every permutation and give them all equal billing in your ad (or use
+“spouse” or “partner”). Since that can end up being unreadable, I suggest you
+keep the ad copy gender-neutral.</p>
+
+<p>It’s also worth noting that gender is a very fuzzy concept and cannot be
+determined by biology. Many of us have put our foot in it at some point in
+interviews with people who present (to us) as one gender, but identify as
+another. The best rule I can think of for avoiding embarrassment is to look at
+how the applicants refer to themselves and use their own terms when talking
+about them. Fortunately for hiring managers, people with non-obvious gender
+identity are used to people struggling a bit, so any effort tends to be
+appreciated.</p>
+
+<h3>Be aware of cultural bias, especially in religious traditions.</h3>
+
+<p>What is normal for you may not be normal for someone else. You can expect
+people to adapt to many things to fit in, but religious traditions involve
+fundamental beliefs and should be respected. Among other things, these
+traditions affect how people dress, what they eat, and their need for personal
+time during the day and evenings and weekends.</p>
+
+<p>For example, don’t assume that everyone considers the consumption of alcohol to
+be a bonus. The “fridge fully stocked with beer” line may be entirely
+appropriate to my culture (and socialisation), but I cringe inward every time I
+read it, on behalf of the vast numbers of people who find the notion
+unwelcoming or offensive.</p>
+
+<h3>Avoid language bias.</h3>
+
+<p>Being too specific about language can appear unwelcoming for people who are not
+native to your area. Advertise native proficiency in a language only when it’s
+really required by the job: “good” or “very good” is usually enough. If
+language is going to be a problem, it will become evident in your communication
+during the application process.</p>
+
+<h3>Let&rsquo;s <em>not</em> talk about sex (in professional settings).</h3>
+
+<p>Finally, assuming things about the reader’s sexual orientation should be
+avoided at all costs, and any discussion of sexual orientation or preference
+should be avoided. I have seen very few job descriptions where sexual
+preference was at all relevant, and you’ll probably know if the position you’re
+advertising is the exception.</p>
+]]></content>
+  </entry>
+  
+</feed>
